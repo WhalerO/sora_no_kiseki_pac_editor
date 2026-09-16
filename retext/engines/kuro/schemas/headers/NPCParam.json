@@ -1,0 +1,52 @@
+{
+	"Sora1": {
+		"game": "Sora1",
+		"schema": {
+			"char_id": "long",
+			"external0": "offset",
+			"external1": "offset",
+			"fixed0": "data8",
+			"external2": "offset",
+			"fixed1": "data48",
+			"text0": "toffset",
+			"text1": "toffset",
+			"text2": "toffset",
+			"fixed2": "data8",
+			"text3": "toffset",
+			"text4": "toffset",
+			"fixed3": "data24"
+		}
+	},
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"char_id": "long",
+			"start_scena_flag": "u16array",
+			"int1": "uint",
+			"end_scena_flag": "u16array",
+			"int2": "uint",
+			"map": "toffset",
+			"X": "float",
+			"Y": "float",
+			"Z": "float",
+			"orientation_angle": "float",
+			"range_interaction": "float",
+			"int": "uint",
+			"flt7": "float",
+			"flt8": "float",
+			"flt9": "float",
+			"flt10": "float",
+			"text1": "toffset",
+			"talk_setting_function": "toffset",
+			"first_animation_function": "toffset",
+			"int3": "uint",
+			"int4": "uint",
+			"talk_function": "toffset",
+			"text2": "toffset",
+			"int5": "uint",
+			"int6": "uint",
+			"int7": "uint",
+			"int8": "uint"
+		}
+	}
+}

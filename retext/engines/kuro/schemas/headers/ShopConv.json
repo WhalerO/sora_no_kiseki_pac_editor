@@ -1,0 +1,16 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"id": "uint",
+			"earth_sepith_exchange_rate": "float",
+			"water_sepith_exchange_rate": "float",
+			"fire_sepith_exchange_rate": "float",
+			"wind_sepith_exchange_rate": "float",
+			"time_sepith_exchange_rate": "float",
+			"space_sepith_exchange_rate": "float",
+			"mirage_sepith_exchange_rate": "float",
+			"sepith_mass_exchange_rate": "float"
+		}
+	}
+}

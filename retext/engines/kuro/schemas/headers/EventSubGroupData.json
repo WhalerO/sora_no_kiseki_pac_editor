@@ -1,0 +1,28 @@
+{
+	"CLE_PC": {
+		"game": "Kai",
+		"schema": {
+			"id1": "ushort",
+			"id2": "ushort",
+			"empty": "uint",
+			"text": "toffset"
+		}
+	},
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"id1": "ushort",
+			"id2": "ushort",
+			"empty": "uint",
+			"text": "toffset"
+		}
+	},
+	"CLE_PC": {
+		"game": "Ys_X_Proud",
+		"schema": {
+			"id": "uint",
+			"int": "uint",
+			"text": "toffset"
+		}
+	}
+}

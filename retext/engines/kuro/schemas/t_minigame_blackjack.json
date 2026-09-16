@@ -1,0 +1,8 @@
+{
+	"headers" : [
+		"BlackJackMessage",
+		"BlackJackMedal",
+		"BlackJackHelp",
+		"BlackJackProb"
+	]
+}

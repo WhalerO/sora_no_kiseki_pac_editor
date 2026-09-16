@@ -1,0 +1,83 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kuro1_PS4",
+		"schema": {
+			"quest_id": "ushort",
+			"int1": "int",
+			"empty1": "short",
+			"quest_description": "toffset",
+			"notebook_text": "toffset",
+			"empty2": "long",
+			"array_flag1": "u16array",
+			"empty3": "int",
+			"array_flag2": "u16array",
+			"empty4": "int"
+		}
+	},
+	"CLE_PC1" :{
+		"game": "Kuro1",
+		"schema": {
+			"quest_id": "ushort",
+			"int1": "int",
+			"empty1": "short",
+			"quest_description": "toffset",
+			"notebook_text": "toffset",
+			"empty2": "long",
+			"array_flag1": "u16array",
+			"empty3": "int",
+			"array_flag2": "u16array",
+			"shrt": "short",
+			"shrt1": "short",
+			"text3": "toffset",
+			"arr1": "u16array",
+			"int4": "int",
+			"arr2": "u16array",
+			"int5": "int"
+		}
+	},
+	"CLE_PC2": {
+		"game": "Kuro2",
+		"schema": {
+			"quest_id": "ushort",
+			"int1": "uint",
+			"empty1": "short",
+			"quest_description": "toffset",
+			"array_flag1": "u16array",
+			"empty3": "int",
+			"array_flag2": "u16array",
+			"empty4": "int",
+			"empty5": "long"
+		}
+	},
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"quest_id": "ushort",
+			"txt_id": "int",
+			"empty1": "short",
+			"quest_description": "toffset",
+			"long1": "long",
+			"unk_txt": "toffset"
+		}
+	},
+	"NISA_PC": {
+		"game": "Ys_X",
+		"schema": {
+			"id1": "uint",
+			"id2": "uint",
+			"text": "toffset",
+			"arr": "u32array",
+			"int": "int"
+		}
+	},
+	"CLE_PC3": {
+		"game": "Ys_X_Proud",
+		"schema": {
+			"id1": "uint",
+			"id2": "uint",
+			"text": "toffset",
+			"arr": "u32array",
+			"int": "int"
+		}
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"headers" : [
+		"BooksTitle",
+		"BooksText",
+		"BooksTitleReplace",
+		"BooksCategory"
+	]
+}

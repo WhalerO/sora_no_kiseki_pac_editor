@@ -1,0 +1,14 @@
+{
+	"headers": [
+		"ATBonusSet",
+		"BattleLevelField",
+		"BattleLevelTurn",
+		"BattleLevelMonsterParam",
+		"TacticalBonus",
+		"ATBonusParam",
+		"BattleEnemyLevelStatusAdjust",
+		"BattleEnemyLevelAdjust",
+		"BattleEnemyDamageAdjust",
+		"BattleSCraftDamageRatio"
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"CLE_PC": {
+		"game": "Kuro2",
+		"schema": {
+			"id": "long",
+			"enable_flags": "u16array",
+			"empty1": "int",
+			"disable_flags": "u16array",
+			"int1": "int",
+			"action_bgm": "int",
+			"command_bgm": "int",
+			"pinch_bgm": "int",
+			"empty2": "int"
+		}
+	}
+}

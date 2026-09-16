@@ -1,0 +1,216 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"id": "uint",
+			"character_restriction": "int",
+			"text1": "toffset",
+			"text2": "toffset",
+			"category": "ubyte",
+			"subcategory": "ubyte",
+			"item_icon": "ushort",
+			"effect_icon": "ushort",
+                        "element": "ushort",
+                        "int1": "uint",
+			"float1": "float",
+			"float2": "float",
+			"effects" : {
+				"size": 5,
+				"schema": {
+					"id": "uint",
+					"value1": "uint",
+					"value2": "uint",
+					"value3": "uint"
+				}
+			},
+			"float3": "float",
+			"hp": "uint",
+			"ep": "uint",
+			"patk": "uint",
+			"pdef": "uint",
+			"matk": "uint",
+			"mdef": "uint",
+			"str": "uint",
+			"def": "uint",
+			"ats": "uint",
+			"adf": "uint",
+			"agl": "uint",
+			"dex": "uint",
+			"hit": "uint",
+			"eva": "uint",
+			"meva": "uint",
+			"crit": "uint",
+			"spd": "uint",
+			"mov": "uint",
+			"stack_size": "uint",
+			"price": "uint",
+			"animation": "toffset",
+			"name": "toffset",
+			"description": "toffset",
+			"int2": "uint", 
+                        "int3": "uint",
+			"arts_id": "uint",
+			"int4": "uint"
+		}
+	},
+	"FALCOM_SWITCH": {
+		"game": "Ys_X",
+		"schema": {
+			"id": "uint",
+			"icon": "uint",
+			"name": "toffset",
+			"short_desc": "toffset",
+			"long_desc": "toffset",
+			"int2": "uint",
+			"type": "short",
+			"short1": "short",
+			"int3": "uint",
+			"maybe_unused0" : {
+				"size": 3,
+				"schema": {
+					"value": "uint"
+				}
+			},
+			"byte0": "ubyte",
+			"byte1": "ubyte",
+			"byte2": "ubyte",
+			"byte3": "ubyte",
+			"int4": "uint",
+			"byte4": "ubyte",
+			"byte5": "ubyte",
+			"maybe_unused1" : {
+				"size": 6,
+				"schema": {
+					"value": "ubyte"
+				}
+			},
+			"obtain_type": "toffset",
+			"obtain_amount" : "float",
+			"int5": "uint",
+			"hp": "int",
+			"str": "int",
+			"break": "int",
+			"def": "int",
+			"vit": "int",
+			"luck": "int",
+			"crit": "int",
+			"eva": "int",
+			"dmg": "int",
+			"dmg_received": "int",
+			"effects": {
+				"size": 4,
+				"schema": {
+					"id": "uint",
+					"value": "float"
+				}
+			},
+			"text4": "toffset",
+			"int8": "uint",
+			"int9": "uint"
+		}
+	},
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"id": "uint",
+			"character_restriction": "uint",
+			"text1": "toffset",
+			"text2": "toffset",
+			"category": "ubyte",
+			"subcategory": "ubyte",
+			"item_icon": "ushort",
+			"effect_icon": "ushort",
+			"element": "ushort",
+			"int1": "uint",
+			"float1": "float",
+			"float2": "float",
+			"effects" : {
+				"size": 5,
+				"schema": {
+					"id": "uint",
+					"value1": "uint",
+					"value2": "uint",
+					"value3": "uint"
+				}
+			},
+			"float3": "float",
+			"hp": "uint",
+			"ep": "uint",
+			"str": "uint",
+			"def": "uint",
+			"ats": "uint",
+			"adf": "uint",
+			"agl": "uint",
+			"dex": "uint",
+			"hit": "uint",
+			"eva": "uint",
+			"aeva": "uint",
+			"crit": "uint",
+			"spd": "uint",
+			"mov": "uint",
+			"stack_size": "int",
+			"price": "int",
+			"animation": "toffset",
+			"name": "toffset",
+			"description": "toffset",
+			"int2": "uint",
+			"int3": "uint",
+			"int4": "uint",
+			"int5": "uint"
+		}
+	},
+	"FALCOM_PC_2": {
+		"game": "Sora2",
+		"schema": {
+			"id": "uint",
+			"character_restriction": "uint",
+			"character_restrictions": "u32array",
+			"empty1": "uint",
+			"text1": "toffset",
+			"text2": "toffset",
+			"category": "ubyte",
+			"subcategory": "ubyte",
+			"item_icon": "ushort",
+			"effect_icon": "ushort",
+			"element": "ushort",
+			"int1": "uint",
+			"float1": "float",
+			"float2": "float",
+			"effects" : {
+				"size": 5,
+				"schema": {
+					"id": "uint",
+					"value1": "uint",
+					"value2": "uint",
+					"value3": "uint"
+				}
+			},
+			"float4": "float",
+			"float3": "float",
+			"hp": "uint",
+			"ep": "uint",
+			"str": "uint",
+			"def": "uint",
+			"ats": "uint",
+			"adf": "uint",
+			"agl": "uint",
+			"dex": "uint",
+			"hit": "uint",
+			"eva": "uint",
+			"aeva": "uint",
+			"crit": "uint",
+			"spd": "uint",
+			"mov": "uint",
+			"stack_size": "int",
+			"price": "int",
+			"empty2": "uint",
+			"animation": "toffset",
+			"name": "toffset",
+			"description": "toffset",
+			"int2": "uint",
+			"int3": "uint",
+			"int4": "uint",
+			"int5": "uint"
+		}
+	}
+}

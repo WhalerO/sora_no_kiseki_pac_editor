@@ -1,0 +1,14 @@
+{
+	"headers": [
+		"ProductInfo",
+		"ShopNameInfo",
+		"ShopInfo",
+		"ShopItem",
+		"ShopTypeDesc",
+		"ShopConv",
+		"TradeItem",
+		"BargainItem",
+		"CharaSettingInfo",
+		"CharaArrange"
+	]
+}

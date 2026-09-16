@@ -1,0 +1,31 @@
+{
+	"CLE_PC": {
+		"game": "Kuro2",
+		"schema": {
+			"id": "ushort",
+			"short1": "ushort",
+			"short2": "ushort",
+			"short3": "ushort",
+			"arr1": "u16array",
+			"empty1": "uint",
+			"arr2": "u16array",
+			"empty2": "uint"
+		}
+	},
+	"CLE_PC": {
+		"game": "Kai",
+		"schema": {
+			"id": "ushort",
+			"uint1": "uint",
+			"short1": "ushort",
+			"toffset": "toffset",
+			"ulong": "ulong",
+			"arr1": "u16array",
+			"uint2": "uint",
+			"arr2": "u16array",
+			"uint3": "uint",
+			"arr3": "u16array",
+			"uint4": "uint"
+		}
+	}
+}

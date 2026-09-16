@@ -1,0 +1,23 @@
+{
+	"headers" : [
+		"ArchiveMessage",
+		"ArchiveSelect",
+		"PreStorySelect",
+		"GlossarySelect",
+		"CharactorSelect",
+		"CharactorList",
+		"CharactorContents",
+		"PreStoryMainContents",
+		"TimeLineList",
+		"PreStoryList",
+		"PreStoryContents",
+		"BeforeStoryList",
+		"BeforeStoryContents", 
+		"GlossaryList",
+		"GlossaryContents",
+		"SeriesList",
+		"SeriesContents",
+		"LogList",
+		"LogContents"
+	]
+}

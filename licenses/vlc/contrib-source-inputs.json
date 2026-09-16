@@ -1,0 +1,1235 @@
+[
+  {
+    "component": "ffi",
+    "name": "libffi-3.0.13.tar.gz",
+    "sha512": "fc47f5d25197c631754efe05a349edb556d072807ecef19b41f17c1a8f39c95221be64926fbd05b1f8439181df1ddff8fc01462ce3a26005b75159ddc27e6f6a",
+    "url": "https://download.videolan.org/pub/contrib/ffi/libffi-3.0.13.tar.gz",
+    "status": "verified",
+    "size": 845747,
+    "sha256": "1dddde1400c3bcb7749d398071af88c3e4754058d2d4c0b3696c2f82dc5cf11c"
+  },
+  {
+    "component": "speexdsp",
+    "name": "speexdsp-1.2.1.tar.gz",
+    "sha512": "41b5f37b48db5cb8c5a0f6437a4a8266d2627a5b7c1088de8549fe0bf0bb3105b7df8024fe207eef194096e0726ea73e2b53e0a4293d8db8e133baa0f8a3bad3",
+    "url": "https://download.videolan.org/pub/contrib/speexdsp/speexdsp-1.2.1.tar.gz",
+    "status": "verified",
+    "size": 922584,
+    "sha256": "8c777343e4a6399569c72abc38a95b24db56882c83dbdb6c6424a5f4aeb54d3d"
+  },
+  {
+    "component": "libmpeg2",
+    "name": "libmpeg2-0.5.1.tar.gz",
+    "sha512": "3648a2b3d7e2056d5adb328acd2fb983a1fa9a05ccb6f9388cc686c819445421811f42e8439418a0491a13080977f074a0d8bf8fa6bc101ff245ddea65a46fbc",
+    "url": "https://download.videolan.org/pub/contrib/libmpeg2/libmpeg2-0.5.1.tar.gz",
+    "status": "verified",
+    "size": 524776,
+    "sha256": "dee22e893cb5fc2b2b6ebd60b88478ab8556cb3b93f9a0d7ce8f3b61851871d4"
+  },
+  {
+    "component": "live555",
+    "name": "live.2016.11.28.tar.gz",
+    "sha512": "319639acef6474b2eec0bdfa3416ca3c88a60f57d9d22911eee018fc494978fde93a241556bc0ea309f0b6a35e0242bd44a8f4de83a845f80d9ca5f94254ade6",
+    "url": "https://download.videolan.org/pub/contrib/live555/live.2016.11.28.tar.gz",
+    "status": "verified",
+    "size": 626781,
+    "sha256": "08b93a20bc302bed1da2f05621f37fda962dbfc272132afa6fa1058d222c238a"
+  },
+  {
+    "component": "jpeg",
+    "name": "jpegsrc.v9b.tar.gz",
+    "sha512": "74ea5af3545657d4ac03f8f7933913112cc2d982f0e379d0e5647f1acac21931468e53806297c30ebe180c7bcf84919a0ac20a4195afb03db03060d57904ef6c",
+    "url": "https://download.videolan.org/pub/contrib/jpeg/jpegsrc.v9b.tar.gz",
+    "status": "verified",
+    "size": 1022609,
+    "sha256": "240fd398da741669bf3c90366f58452ea59041cacc741a489b99f2f6a0bad052"
+  },
+  {
+    "component": "xau",
+    "name": "libXau-1.0.6.tar.bz2",
+    "sha512": "673f6621384388f1ff12274a4d68d95b67e344dab30c2ceb7e96cfa515d0268874a712cfb26c792829b80855a91f0dbc777b16446a8858da28b8d10f3998bc53",
+    "url": "https://xorg.freedesktop.org/releases/individual/lib/libXau-1.0.6.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://xorg.freedesktop.org/releases/individual/lib/libXau-1.0.6.tar.bz2"
+    ],
+    "size": 261501,
+    "sha256": "ee84415ffedcc1c0d39b3a39c35d0596c89907bba93d22bf85e24d21f90170fc"
+  },
+  {
+    "component": "bluray",
+    "name": "libbluray-1.4.0.tar.xz",
+    "sha512": "7284169b32624e5ca4fd71b260a4cc2921efafb1f63143a562568be45e373bfcbfeac63895d5659ccdcb11d7dbd0236cc46ccb15c12eff855703010e46991f27",
+    "url": "https://download.videolan.org/pub/videolan/libbluray/1.4.0/libbluray-1.4.0.tar.xz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://download.videolan.org/pub/videolan/libbluray/1.4.0/libbluray-1.4.0.tar.xz"
+    ],
+    "size": 458580,
+    "sha256": "77937baf07eadda4b2b311cf3af4c50269d2ea3165041f5843d96476c4c92777"
+  },
+  {
+    "component": "glew",
+    "name": "glew-2.1.0.tgz",
+    "sha512": "9a9b4d81482ccaac4b476c34ed537585ae754a82ebb51c3efa16d953c25cc3931be46ed2e49e79c730cd8afc6a1b78c97d52cd714044a339c3bc29734cd4d2ab",
+    "url": "https://download.videolan.org/pub/contrib/glew/glew-2.1.0.tgz",
+    "status": "verified",
+    "size": 764073,
+    "sha256": "04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95"
+  },
+  {
+    "component": "harfbuzz",
+    "name": "harfbuzz-11.5.0.tar.xz",
+    "sha512": "94f2e8fcaede877ef869e9c71ea075af581210f7b05cf516c3bad768351a1c6b7df9a61022ec075b5f2c952cca3b9294a3b674ffd21b1604426b5a8e1693a022",
+    "url": "https://download.videolan.org/pub/contrib/harfbuzz/harfbuzz-11.5.0.tar.xz",
+    "status": "verified",
+    "size": 18154144,
+    "sha256": "2d30ba45c4c8ec4de661a1002b4f88d0841ff1a3087f34629275f5436d722109"
+  },
+  {
+    "component": "schroedinger",
+    "name": "schroedinger-1.0.11.tar.gz",
+    "sha512": "a39dd5360eb87a63379de71d91f48cde309ded91632c0ab8b1dc76b73591f7d0dfa7003c606d1b546d495b18c916aae905a9540b48dff7cbeb5b289e0f880438",
+    "url": "https://download.videolan.org/pub/contrib/schroedinger/schroedinger-1.0.11.tar.gz",
+    "status": "verified",
+    "size": 1019247,
+    "sha256": "1e572a0735b92aca5746c4528f9bebd35aa0ccf8619b22fa2756137a8cc9f912"
+  },
+  {
+    "component": "srt",
+    "name": "srt-1.5.3.tar.gz",
+    "sha512": "5b576d6fd325515e05074e4568e3b65d1ae265e3e971db6e6242e5138243fc1594df1e3a7d90962385dac38abc34c4c4b0a567439050f8c0ff818b3b3d497efc",
+    "url": "https://download.videolan.org/pub/contrib/srt/srt-1.5.3.tar.gz",
+    "status": "verified",
+    "size": 1706632,
+    "sha256": "befaeb16f628c46387b898df02bc6fba84868e86a6f6d8294755375b9932d777"
+  },
+  {
+    "component": "growl",
+    "name": "GrowlSDK-2.0.1-src.tar.gz",
+    "sha512": "0e387977ade9a7475ddec3711b60842349521be5c9b60849f443f9819675cb0f490ce91d7a2092ee70288b48feb49988367ab030c30395ece8a1098d2ac811c0",
+    "url": "https://download.videolan.org/pub/contrib/growl/GrowlSDK-2.0.1-src.tar.gz",
+    "status": "verified",
+    "size": 19225401,
+    "sha256": "08f4131cfa8d554237f83f7c68cbab2164f0a3df48e2ba7b9ac94969fc3e5630"
+  },
+  {
+    "component": "theora",
+    "name": "libtheora-1.1.1.tar.xz",
+    "sha512": "032fb60f10ac0074ec87d5f8c586702309edc50dc0d2842d2f9b9c46ebd1500acc399e9309f858f318fff5b8fbe953234db3afb54ed74a03d0f2c6ee8c3ed481",
+    "url": "https://download.videolan.org/pub/contrib/theora/libtheora-1.1.1.tar.xz",
+    "status": "verified",
+    "size": 1434496,
+    "sha256": "f36da409947aa2b3dcc6af0a8c2e3144bc19db2ed547d64e9171c59c66561c61"
+  },
+  {
+    "component": "breakpad",
+    "name": "breakpad-0.1.3.tar.gz",
+    "sha512": "63b4e963d46eaf1ca3e4d0a93f5e02282992b48a730da613e987fcbd3d0135f8cfea32a52014e4e0e76ddabe1879950e110b4067b49e46f6fd739cbc7f461e0e",
+    "url": "https://download.videolan.org/pub/contrib/breakpad/breakpad-0.1.3.tar.gz",
+    "status": "verified",
+    "size": 4804021,
+    "sha256": "97c2e3e770446649d10d3fbfbc2dafba8034290e20fbbdbea7be792f16c01590"
+  },
+  {
+    "component": "soxr",
+    "name": "soxr-0.1.3-Source.tar.xz",
+    "sha512": "f4883ed298d5650399283238aac3dbe78d605b988246bea51fa343d4a8ce5ce97c6e143f6c3f50a3ff81795d9c19e7a07217c586d4020f6ced102aceac46aaa8",
+    "url": "https://download.videolan.org/pub/contrib/soxr/soxr-0.1.3-Source.tar.xz",
+    "status": "verified",
+    "size": 94384,
+    "sha256": "b111c15fdc8c029989330ff559184198c161100a59312f5dc19ddeb9b5a15889"
+  },
+  {
+    "component": "gcrypt",
+    "name": "libgcrypt-1.10.1.tar.bz2",
+    "sha512": "e5ca7966624fff16c3013795836a2c4377f0193dbb4ac5ad2b79654b1fa8992e17d83816569a402212dc8367a7980d4141f5d6ac282bae6b9f02186365b61f13",
+    "url": "https://download.videolan.org/pub/contrib/gcrypt/libgcrypt-1.10.1.tar.bz2",
+    "status": "verified",
+    "size": 3778457,
+    "sha256": "ef14ae546b0084cd84259f61a55e07a38c3b53afc0f546bffcef2f01baffe9de"
+  },
+  {
+    "component": "ffmpeg",
+    "name": "ffmpeg-4.4.5.tar.xz",
+    "sha512": "70df4e63ef507a7ec76da34438142499139769728fd5130d9cf48d56c110ec82c3d6a7e6d1622da03c70167fa861d901d016bbe52c21d2b284b8a0d9f30811dc",
+    "url": "https://download.videolan.org/pub/contrib/ffmpeg/ffmpeg-4.4.5.tar.xz",
+    "status": "verified",
+    "size": 9575596,
+    "sha256": "f9514e0d3515aee5a271283df71636e1d1ff7274b15853bcd84e144be416ab07"
+  },
+  {
+    "component": "gettext",
+    "name": "gettext-0.22.5.tar.gz",
+    "sha512": "d8b22d7fba10052a2045f477f0a5b684d932513bdb3b295c22fbd9dfc2a9d8fccd9aefd90692136c62897149aa2f7d1145ce6618aa1f0be787cb88eba5bc09be",
+    "url": "https://download.videolan.org/pub/contrib/gettext/gettext-0.22.5.tar.gz",
+    "status": "verified",
+    "size": 26861674,
+    "sha256": "ec1705b1e969b83a9f073144ec806151db88127f5e40fe5a94cb6c8fa48996a0"
+  },
+  {
+    "component": "jack",
+    "name": "jack1-0.121.3.tar.gz",
+    "sha512": "a52655ca895e37a49a14cb72811f25c65c54bc26ae6d4ce35331b8b85f87905f1be25a88b2efb96c47b344abd0a6bf9371e4043e05ccf91cb08287835e5cc8ac",
+    "url": "https://download.videolan.org/pub/contrib/jack/jack1-0.121.3.tar.gz",
+    "status": "verified",
+    "size": 459112,
+    "sha256": "2bd7c07dcfedd3e7432cc7f2c556fa84fcee0ef4d6d5e3f9c2535fe9304d3004"
+  },
+  {
+    "component": "xcb-proto",
+    "name": "xcb-proto-1.12.tar.bz2",
+    "sha512": "1f427eaf223971b25b56c9f641350e03f5ebeb17a1fc212ce2a0c892de7aba7e53d5e3958b073a122bb344c387c0ff394cf96f542ff046f33de4e1cd27fb9e5c",
+    "url": "https://www.x.org/archive/individual/xcb/xcb-proto-1.12.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://www.x.org/archive/individual/xcb/xcb-proto-1.12.tar.bz2"
+    ],
+    "size": 153890,
+    "sha256": "5922aba4c664ab7899a29d92ea91a87aa4c1fc7eb5ee550325c3216c480a4906"
+  },
+  {
+    "component": "zlib",
+    "name": "zlib-1.3.1.tar.xz",
+    "sha512": "1e8e70b362d64a233591906a1f50b59001db04ca14aaffad522198b04680be501736e7d536b4191e2f99767e7001ca486cd802362cca2be05d5d409b83ea732d",
+    "url": "https://download.videolan.org/pub/contrib/zlib/zlib-1.3.1.tar.xz",
+    "status": "verified",
+    "size": 1305740,
+    "sha256": "38ef96b8dfe510d42707d9c781877914792541133e1870841463bfa73f883e32"
+  },
+  {
+    "component": "gnutls",
+    "name": "gnutls-3.8.10.tar.xz",
+    "sha512": "d453bd4527af95cb3905ce8753ceafd969e3f442ad1d148544a233ebf13285b999930553a805a0511293cc25390bb6a040260df5544a7c55019640f920ad3d92",
+    "url": "https://download.videolan.org/pub/contrib/gnutls/gnutls-3.8.10.tar.xz",
+    "status": "verified",
+    "size": 6909856,
+    "sha256": "db7fab7cce791e7727ebbef2334301c821d79a550ec55c9ef096b610b03eb6b7"
+  },
+  {
+    "component": "qtsvg",
+    "name": "qtsvg-5.6.3.tar.xz",
+    "sha512": "449c0b003f528af4a57334056dd3a8087e1a381db70ec7ad320aa662a28016ee4f3d644a262125509bd35c7d7630119f629b923826a1c87d38bde570e6b60bfb",
+    "url": "https://download.videolan.org/pub/contrib/qt/qtsvg-5.6.3.tar.xz",
+    "status": "verified",
+    "size": 1733136,
+    "sha256": "100f183517b46554079beabd8d2cabe3070a74dd0a2e64b6a304eac71cfadcec"
+  },
+  {
+    "component": "lame",
+    "name": "lame-3.100.tar.gz",
+    "sha512": "0844b9eadb4aacf8000444621451277de365041cc1d97b7f7a589da0b7a23899310afd4e4d81114b9912aa97832621d20588034715573d417b2923948c08634b",
+    "url": "https://download.videolan.org/pub/contrib/lame/lame-3.100.tar.gz",
+    "status": "verified",
+    "size": 1524133,
+    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+  },
+  {
+    "component": "gmp",
+    "name": "gmp-6.3.0.tar.xz",
+    "sha512": "e85a0dab5195889948a3462189f0e0598d331d3457612e2d3350799dba2e244316d256f8161df5219538eb003e4b5343f989aaa00f96321559063ed8c8f29fd2",
+    "url": "https://download.videolan.org/pub/contrib/gmp/gmp-6.3.0.tar.xz",
+    "status": "verified",
+    "size": 2094196,
+    "sha256": "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+  },
+  {
+    "component": "tiff",
+    "name": "tiff-4.0.9.tar.gz",
+    "sha512": "04f3d5eefccf9c1a0393659fe27f3dddd31108c401ba0dc587bca152a1c1f6bc844ba41622ff5572da8cc278593eff8c402b44e7af0a0090e91d326c2d79f6cd",
+    "url": "https://download.videolan.org/pub/contrib/tiff/tiff-4.0.9.tar.gz",
+    "status": "verified",
+    "size": 2305681,
+    "sha256": "6e7bdeec2c310734e734d19aae3a71ebe37a4d842e0e23dbb1b8921c0026cfcd"
+  },
+  {
+    "component": "dav1d",
+    "name": "dav1d-1.5.1.tar.xz",
+    "sha512": "3582dff4f797ebe2c137b28549a7214f11869ae308e3c78440849a3a501b12c326d3fa604126ccff4b648f37ab260c003c63385c70ba91e11f3442f20ad455db",
+    "url": "https://download.videolan.org/pub/videolan/dav1d/1.5.1/dav1d-1.5.1.tar.xz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://download.videolan.org/pub/videolan/dav1d/1.5.1/dav1d-1.5.1.tar.xz"
+    ],
+    "size": 1020760,
+    "sha256": "401813f1f89fa8fd4295805aa5284d9aed9bc7fc1fdbe554af4292f64cbabe21"
+  },
+  {
+    "component": "cddb",
+    "name": "libcddb-1.3.2.tar.bz2",
+    "sha512": "0e07e7d37f2013164d75b530a5528f54847271fd20f3b7bedb192a05d1f61dcf006d10dc2927efe155a01eddcc57b940bc31d8ac88d5dfc4f1a09771caa84e0a",
+    "url": "https://download.videolan.org/pub/contrib/cddb/libcddb-1.3.2.tar.bz2",
+    "status": "verified",
+    "size": 352909,
+    "sha256": "35ce0ee1741ea38def304ddfe84a958901413aa829698357f0bee5bb8f0a223b"
+  },
+  {
+    "component": "libplacebo",
+    "name": "libplacebo-0.2.1.tar.gz",
+    "sha512": "d662c1972ee36f45d1e75b1c38edb7d2a47a1df8dedd811c37662ae88514403c978088bc4a42c3bf850b22e9cc882cb5de730bf2463f36caf284f6172e177dbb",
+    "url": "https://download.videolan.org/pub/contrib/libplacebo/libplacebo-0.2.1.tar.gz",
+    "status": "verified",
+    "size": 169802,
+    "sha256": "d5d920a1745e4209287d32e8b96a85127b61b843304813980e11104cd9f15e82"
+  },
+  {
+    "component": "projectM",
+    "name": "projectM-2.0.1-Source.tar.gz",
+    "sha512": "0edbf487d45983b0004ee67009931da985f3b9909cb10eb32a2c9116eed46f9cf9c7a1c696138d16a30aedd81d43ac5533fb7666c9fba9326c9c89f4e87f88db",
+    "url": "https://download.videolan.org/pub/contrib/projectM/projectM-2.0.1-Source.tar.gz",
+    "status": "verified",
+    "size": 865784,
+    "sha256": "c305182dfc8b7f87b82a146af6cf50a982e7c9c647877a0559dfef4b11dacb93"
+  },
+  {
+    "component": "sidplay2",
+    "name": "sidplay-libs-2.1.1.tar.gz",
+    "sha512": "754cd41f3d2d76754049522c395022bc090f99ea838e6d1ffb8d7689f3aedad9b3879be0312d0af49ba108563296c1176d1e533d1151d5b33368bfda0a1910e3",
+    "url": "https://download.videolan.org/pub/contrib/sidplay2/sidplay-libs-2.1.1.tar.gz",
+    "status": "verified",
+    "size": 1900252,
+    "sha256": "e9a24ada48215a46d2c232a70c5601bc9505e997f120e8f2ba3713e09e28d1f9"
+  },
+  {
+    "component": "nfs",
+    "name": "libnfs-5.0.1.tar.gz",
+    "sha512": "71f2dcfa8945c1cb6402f5fca10b1f7a4720f7589807d6130eb55361f05ef4684f9cc9a177ece4e13d3847ac6606924115fac7b27749cecc2f5aca6fa9c63ebf",
+    "url": "https://download.videolan.org/pub/contrib/nfs/libnfs-5.0.1.tar.gz",
+    "status": "verified",
+    "size": 279550,
+    "sha256": "7ef445410b42f36b9bad426608b53ccb9ccca4101e545c383f564c11db672ca8"
+  },
+  {
+    "component": "aribb24",
+    "name": "aribb24-1.0.3.tar.gz",
+    "sha512": "622cc0c3928fd6db0b5ab3921f27348c956af20f8c0133ad5d9bf4de3d199077d9f23cc86ae149a9f0d13c7ee5906ec95de3fb8388207160cebd1f0c59078c8f",
+    "url": "https://download.videolan.org/pub/contrib/aribb24/aribb24-1.0.3.tar.gz",
+    "status": "verified",
+    "size": 57378,
+    "sha256": "f61560738926e57f9173510389634d8c06cabedfa857db4b28fb7704707ff128"
+  },
+  {
+    "component": "wix",
+    "name": "wix3.14.1.8722.zip",
+    "sha512": "ff58d224e545722eb794d413c541ad483ab834f9ce92e2528fe8aeb645717ab077db833ae783e1a31ad9e50803eb80fdc9efcda72535493a3f0faea4aa3ba36d",
+    "url": "https://download.videolan.org/pub/contrib/wix/wix3.14.1.8722.zip",
+    "status": "verified",
+    "size": 41297555,
+    "sha256": "6ac824e1642d6f7277d0ed7ea09411a508f6116ba6fae0aa5f2c7daa2ff43d31"
+  },
+  {
+    "component": "d3d11",
+    "name": "d3d11.h",
+    "sha512": "47f35cd2cc5429f50bcc468af8fb5282e59840f1faca29b90fa2b12e2224e8b9631523d2555d15936fc7722d6adf7285bd10e80d359f38d3bedfd1a809b6df00",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/f701c4c8cc9a881e660904f8c0047908a7b2ed04/mingw-w64-headers/include/d3d11.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/f701c4c8cc9a881e660904f8c0047908a7b2ed04/mingw-w64-headers/include/d3d11.h"
+    ],
+    "size": 463136,
+    "sha256": "7081da1c5bd126703f0d187f59a5a03464963285bef8cc9732e63cfa382b4374"
+  },
+  {
+    "component": "d3d11",
+    "name": "d3d11_1.h",
+    "sha512": "d309fc35b655213673ca2e79776a41088009cca845a7fe1968f0683093587de771039a3f2acd59f778e382ddb558309f728bbebbc4ffd1cfacc08bf57a223a89",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_1.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_1.h"
+    ],
+    "size": 249308,
+    "sha256": "96eb5f5f75f002206d00c0a191d464d029c4d4175052bc36fac1b378ea65403d"
+  },
+  {
+    "component": "d3d11",
+    "name": "d3d11_2.h",
+    "sha512": "9cd0805fb4ede1b6269455ac44f309b1f3e60a64c401e157f9866ce41427324c05717f3dc166aef12bd865ffca0c96696de8a9e4b549836a47c322aeae955f4e",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_2.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_2.h"
+    ],
+    "size": 133328,
+    "sha256": "8fb822fe8c01a847851f25bceaf4a3106b3da51e4cc38eb7f35c6dbb25e324c7"
+  },
+  {
+    "component": "d3d11",
+    "name": "d3d11_3.h",
+    "sha512": "5c9b2d3ca071d555f61d45c839b3a474a8e3a440cb386c65303f0e9c95da74565ac7bdc6430582bdd506c192fc259707f10fd2b111ca0374e487e6bbd5ffc3ee",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_3.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/aa6ab47929a9cac6897f38e630ce0bb88458e288/mingw-w64-headers/direct-x/include/d3d11_3.h"
+    ],
+    "size": 285631,
+    "sha256": "a02ce06264a437c6b823032e48c957b0ec09617a684161f99c87d3b64e4f90b8"
+  },
+  {
+    "component": "d3d11",
+    "name": "d3d11_4.h",
+    "sha512": "f87eadc5c9a16a2e38d6a5615bd4e6d338df6a8b35879f315bcec39c876ebe9be47b0ce4174a5c259e6166895352a2403e503ae852218702fd7ed97b7aa3b142",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/6a1e782bb60bb1a93b5ab20fe895394d9c0904c2/mingw-w64-headers/direct-x/include/d3d11_4.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/6a1e782bb60bb1a93b5ab20fe895394d9c0904c2/mingw-w64-headers/direct-x/include/d3d11_4.h"
+    ],
+    "size": 147769,
+    "sha256": "155ac8d7b8b03f417cd22cb918a2a128679bd626ac93765b0903a187e070cec3"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgidebug.h",
+    "sha512": "baa4e380e41467c7d53191756376e8a60b9a2173ab3db08d5736416d89b6ca0b2b9d8eccce24e88731fdfbb9711ac36782a7fac03733de1342684a8557d2efbf",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/22333acf22f89b9709c718467e04735157b5d27a/mingw-w64-headers/include/dxgidebug.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/22333acf22f89b9709c718467e04735157b5d27a/mingw-w64-headers/include/dxgidebug.h"
+    ],
+    "size": 3850,
+    "sha256": "4fd1b4e618a43fad4a5d7eccd5c1417f7d446a42da263b26ff3a72feb2320aa0"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi1_2.h",
+    "sha512": "3d1fa12e80b8ce7d54568439b1229b08356ba07b8d35a73971b9ba9fe8efe2b3e05e05bf343663fc921d421a0deb4b2355af49a6dbf20d30e7fafdc898537510",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_2.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_2.h"
+    ],
+    "size": 89657,
+    "sha256": "2da68f9332da7a3a33fda1a2a76f378ce9fb0bbff038627db19cccf4fb20937f"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi1_3.h",
+    "sha512": "b843e74266fdfdf4b6fdb121d75db441c48ab09282e20b1b9b81d816e9f2130b1404e9e4065bae69868e32b687c58a13d83f057a882b8cb4f897944b6330a22a",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_3.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_3.h"
+    ],
+    "size": 82385,
+    "sha256": "f72123d319a4aa9e817a1d832dbfc3099fc831e2241c6d23ba7f71a4de9bef61"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi1_4.h",
+    "sha512": "22c658dc1a9c1a047f429cc27b46b81c42f0d44e35b5936dcfb74ed3d1dcd5aae53beb0a9e3f1285493e2f03ac85544b5bc3d0a91d37ef537a430cbbe89c1173",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_4.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_4.h"
+    ],
+    "size": 59125,
+    "sha256": "cae975f1bdc9178118f3f53f7450e65be1a4dbd55b509c3c7c6cc3d85ce974ee"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi1_5.h",
+    "sha512": "bcbb0b2929a512137b1298b160e265141b8405e336dd347e6131a938edc62f2906e19f1451fef07ecae328824533445a90c8dffe10d3eab1ef5c93219b61a082",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_5.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_5.h"
+    ],
+    "size": 61562,
+    "sha256": "87a05e82915e74aef4aa59d8cd8e7b7138fbcfc9524560843be4d04d79e9504d"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi1_6.h",
+    "sha512": "5ab157d2c41e9fc070a7eeb31479ffd0d3a259a4cd60b747077fe0e4fcd67aa79da9232058127158316332b0d672e6c78ef224d3c17fdda1307074e4f4f09902",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_6.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi1_6.h"
+    ],
+    "size": 60963,
+    "sha256": "dc281e86f5668ebab17a6c9004d346b39106254f9d8001ce7f21fdf955295abd"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgitype.h",
+    "sha512": "7887819e18867f793448e21e5a2a73305d4685ad2b80a4499b5a5710f2c7d0dc9079184e7e82aa5f1837c7a1b2d621ca392a9b8a903f0d135b29969be51d508a",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgitype.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgitype.h"
+    ],
+    "size": 2281,
+    "sha256": "dc69a0690da9a11dbe09c20796434e12d9b22d57f684b4379001ced8b06a95d4"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgicommon.h",
+    "sha512": "6c4929f4a4b262d901aa0b1a7b47ffc739ee8e1ecd82f20627c43ad0ee5367aa7c8b6f374a25273b6928d5d1e3c735fbb84404107e6e4d2f2965252a6d91c0c3",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgicommon.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgicommon.h"
+    ],
+    "size": 2138,
+    "sha256": "051251d8e0a62434fe00fdb2dc32b6809927ec2aa3001ba0b65d5fc8ff64d254"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgiformat.h",
+    "sha512": "3b1ccecaca5223a870a6195d4924908cfbc874d00e4dcb1e6415ec29323a15d36fae410049e86f25462dba996cc033f8ab716d9554c34f01ce061282b93c6f6e",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgiformat.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgiformat.h"
+    ],
+    "size": 5098,
+    "sha256": "69958f34f46d3d05572deaf840b187fb0987ad6f4308321723903111bf957eb5"
+  },
+  {
+    "component": "d3d11",
+    "name": "dxgi.h",
+    "sha512": "cb0120badd7671f0cda1055971554950fc39c77e92c1acc2ab98f8c9e0398456799d2fb49a3c73e4d4452deaffd551d8754ad0665803feb3cf0711841e297c1c",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/3419b2d4b2b7e8b378696dc79546e3593f00ade6/mingw-w64-headers/include/dxgi.h"
+    ],
+    "size": 98855,
+    "sha256": "b131631e9c8566a7a633687c8a9cba16d3c296cebb17dabc4b213d81b518cede"
+  },
+  {
+    "component": "flac",
+    "name": "flac-1.3.4.tar.xz",
+    "sha512": "4a626e8a1bd126e234c0e5061e3b46f3a27c2065fdfa228fd8cf00d3c7fa2c05fafb5cec36acce7bfce4914bfd7db0b2a27ee15decf2d8c4caad630f62d44ec9",
+    "url": "https://download.videolan.org/pub/contrib/flac/flac-1.3.4.tar.xz",
+    "status": "verified",
+    "size": 1038356,
+    "sha256": "8ff0607e75a322dd7cd6ec48f4f225471404ae2730d0ea945127b1355155e737"
+  },
+  {
+    "component": "libxml2",
+    "name": "libxml2-2.9.14.tar.xz",
+    "sha512": "d08e6cafb289c499fdc5b3a12181e032a34f7a249bc66758859f964d3e71e19fd69be79921e1a9d8ab1e692d15b13f5fae95eeb10c3236974d89e218f5107606",
+    "url": "https://download.videolan.org/pub/contrib/libxml2/libxml2-2.9.14.tar.xz",
+    "status": "verified",
+    "size": 3129968,
+    "sha256": "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee"
+  },
+  {
+    "component": "dca",
+    "name": "libdca-0.0.7.tar.bz2",
+    "sha512": "dae15d77d066687c882833d5bed8d65a585c1fc0277b7276563c89ddd5a83b35389ec94cca445f38af28a9b01430b72647e9afd1b08f030959e711de1a08924a",
+    "url": "https://download.videolan.org/pub/contrib/dca/libdca-0.0.7.tar.bz2",
+    "status": "verified",
+    "size": 158232,
+    "sha256": "3a0b13815f582c661d2388ffcabc2f1ea82f471783c400f765f2ec6c81065f6a"
+  },
+  {
+    "component": "libdsm",
+    "name": "libdsm-0.4.3.tar.xz",
+    "sha512": "4abe2318aa5d63397404ce87fc42be30d364dffef3bdf6e081a2bb3ac4f011f39fa8acb5ba06361e94795a308df321b077e7a3cf2ec10d5e1e6c9b912cbbd8ba",
+    "url": "https://download.videolan.org/pub/contrib/libdsm/libdsm-0.4.3.tar.xz",
+    "status": "verified",
+    "size": 128284,
+    "sha256": "d31921bd6f6a23878266b945731f7d57505472ef85d66f944c43b9f8eacc2a8a"
+  },
+  {
+    "component": "pthreads",
+    "name": "mingw-w64-v10.0.0.tar.bz2",
+    "sha512": "3c0827af7c40809a867758f6cd9ef3ff0c988b43082345bf725e03949af95968d634ace99a7ffae323189549221dcb5d861de9e801f1fbc7904e446641b60516",
+    "url": "https://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v10.0.0.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://downloads.sourceforge.net/project/mingw-w64/mingw-w64/mingw-w64-release/mingw-w64-v10.0.0.tar.bz2"
+    ],
+    "size": 9620291,
+    "sha256": "ba6b430aed72c63a3768531f6a3ffc2b0fde2c57a3b251450dcf489a894f0894"
+  },
+  {
+    "component": "bpg",
+    "name": "libbpg-0.9.7.tar.gz",
+    "sha512": "d7414fc9cd801403e804d28d77c9e842b3f79fcd2e56213fba094b9708f587c5f3cbda1642d140d24d6c2868e2195572088da703d27c79981552c1751a893b0e",
+    "url": "https://download.videolan.org/pub/contrib/bpg/libbpg-0.9.7.tar.gz",
+    "status": "verified",
+    "size": 2028932,
+    "sha256": "05035862ff4ffca0280261871486f44e74c4af4337c931e0858483551e6efe25"
+  },
+  {
+    "component": "mad",
+    "name": "libmad-0.15.1b.tar.gz",
+    "sha512": "2cad30347fb310dc605c46bacd9da117f447a5cabedd8fefdb24ab5de641429e5ec5ce8af7aefa6a75a3f545d3adfa255e3fa0a2d50971f76bc0c4fc0400cc45",
+    "url": "https://download.videolan.org/pub/contrib/mad/libmad-0.15.1b.tar.gz",
+    "status": "verified",
+    "size": 502379,
+    "sha256": "bbfac3ed6bfbc2823d3775ebb931087371e142bb0e9bb1bee51a76a6e0078690"
+  },
+  {
+    "component": "shout",
+    "name": "libshout-2.4.1.tar.gz",
+    "sha512": "4d4b958947e020de3330d49d39d59220fc89315f25f653a7456b9aa24ca9566fca30bb3d65e6348e79958656096b6b864ea8885157d24e55c8d84d6604670219",
+    "url": "https://download.videolan.org/pub/contrib/shout/libshout-2.4.1.tar.gz",
+    "status": "verified",
+    "size": 516161,
+    "sha256": "f3acb8dec26f2dbf6df778888e0e429a4ce9378a9d461b02a7ccbf2991bbf24d"
+  },
+  {
+    "component": "ass",
+    "name": "libass-0.17.3.tar.gz",
+    "sha512": "b8f7868f99fbc9128144d0cdad3de8ca83eefc6c186e2c295afa98e36bd88d4533969618030ff33ab809850ce1c584f967104b5725b41b1db5cef05434258d5d",
+    "url": "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/libass/libass/releases/download/0.17.3/libass-0.17.3.tar.gz"
+    ],
+    "size": 623628,
+    "sha256": "da7c348deb6fa6c24507afab2dee7545ba5dd5bbf90a137bfe9e738f7df68537"
+  },
+  {
+    "component": "dvdread",
+    "name": "libdvdread-6.1.3.tar.bz2",
+    "sha512": "c98055829ccbbe2bb7b5df48f6e279cf6e91ecab39a35c37081581452f7df7531c1d7b8abd641c55eeee357235b2658b31478dbc307995cffdf8c011bd0dd0bc",
+    "url": "https://download.videolan.org/pub/contrib/dvdread/libdvdread-6.1.3.tar.bz2",
+    "status": "verified",
+    "size": 395439,
+    "sha256": "ce35454997a208cbe50e91232f0e73fb1ac3471965813a13b8730a8f18a15369"
+  },
+  {
+    "component": "vorbis",
+    "name": "libvorbis-1.3.6.tar.xz",
+    "sha512": "a5d990bb88db2501b16f8eaee9f2ecb599cefd7dab2134d16538d8905263a972157c7671867848c2a8a358bf5e5dbc7721205ece001032482f168be7bda4f132",
+    "url": "https://download.videolan.org/pub/contrib/vorbis/libvorbis-1.3.6.tar.xz",
+    "status": "verified",
+    "size": 1195388,
+    "sha256": "af00bb5a784e7c9e69f56823de4637c350643deedaf333d0fa86ecdba6fcb415"
+  },
+  {
+    "component": "gme",
+    "name": "game-music-emu-0.6.3.tar.gz",
+    "sha512": "fb4e8026f7b1565ef7884fabfcdedd97546bbe30d3047f06f0487dc752963ea37e5e4320cb0311eabe8fb7ed122f7958c388c7873ccff812fa3b612c9523491e",
+    "url": "https://github.com/libgme/game-music-emu/archive/refs/tags/0.6.3.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/libgme/game-music-emu/archive/refs/tags/0.6.3.tar.gz"
+    ],
+    "size": 314980,
+    "sha256": "4c5a7614acaea44e5cb1423817d2889deb82674ddbc4e3e1291614304b86fca0"
+  },
+  {
+    "component": "amf",
+    "name": "AMF-1.4.34.tar.gz",
+    "sha512": "2f6e43908260d9f7cb8b28ab8dd34f8f2a1f61c6f2b24d847f277deb264de74d37e60b71e35f6eb079af5c1a16967d0fb780271aee751c18f2013023dcb96f6c",
+    "url": "https://github.com/GPUOpen-LibrariesAndSDKs/AMF/releases/download/v1.4.34/AMF-headers.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/GPUOpen-LibrariesAndSDKs/AMF/releases/download/v1.4.34/AMF-headers.tar.gz"
+    ],
+    "size": 80230,
+    "sha256": "5393759308f6d7bc9eb1ed8013c954e03aadb85f0ed6e96f969a5df447b0f79c"
+  },
+  {
+    "component": "iconv",
+    "name": "libiconv-1.17.tar.gz",
+    "sha512": "18a09de2d026da4f2d8b858517b0f26d853b21179cf4fa9a41070b2d140030ad9525637dc4f34fc7f27abca8acdc84c6751dfb1d426e78bf92af4040603ced86",
+    "url": "https://download.videolan.org/pub/contrib/iconv/libiconv-1.17.tar.gz",
+    "status": "verified",
+    "size": 5413283,
+    "sha256": "8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313"
+  },
+  {
+    "component": "glib",
+    "name": "glib-2.38.2.tar.xz",
+    "sha512": "f31531060d898dbe05e71ffc4d057f5a703106674e68c28ad2346d227304ef9454736beaf653f27553ed5397caac8baf3d76d3b31b062898762e5cf4e24ff0e0",
+    "url": "https://download.videolan.org/pub/contrib/glib/glib-2.38.2.tar.xz",
+    "status": "verified",
+    "size": 6718296,
+    "sha256": "056a9854c0966a0945e16146b3345b7a82562a5ba4d5516fd10398732aea5734"
+  },
+  {
+    "component": "asdcplib",
+    "name": "asdcplib-2.7.19.tar.gz",
+    "sha512": "2ae375b2cbb76bbb0ca75a6b2a37b5b51350165ad07b92957f269611b37d92475da44c1046f06f316a1dc1e00f3141b5c9763abd64c41c341131b9c7c4d04bab",
+    "url": "https://download.videolan.org/pub/contrib/asdcplib/asdcplib-2.7.19.tar.gz",
+    "status": "verified",
+    "size": 700707,
+    "sha256": "2948613fc31926b5e61dbe6a08d937d02e6f806650fde9c3e732cdc1f188f82e"
+  },
+  {
+    "component": "xproto",
+    "name": "xproto-7.0.29.tar.bz2",
+    "sha512": "0e72d0673ae96906d88566e360fcd6d0b70deab50d108bc9caeccb3aa68e80d257407611649b4ddde2811c34c07c1eeb0b710243a9f7a9c3ff2c728832f7f647",
+    "url": "https://xorg.freedesktop.org/releases/individual/proto/xproto-7.0.29.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://xorg.freedesktop.org/releases/individual/proto/xproto-7.0.29.tar.bz2"
+    ],
+    "size": 309065,
+    "sha256": "6c1a477092ca73233902b8d5f33012635c4b0208f17e7833cc7efe5c93ba9f8a"
+  },
+  {
+    "component": "ncurses",
+    "name": "ncurses-6.3.tar.gz",
+    "sha512": "5373f228cba6b7869210384a607a2d7faecfcbfef6dbfcd7c513f4e84fbd8bcad53ac7db2e7e84b95582248c1039dcfc7c4db205a618f7da22a166db482f0105",
+    "url": "https://download.videolan.org/pub/contrib/ncurses/ncurses-6.3.tar.gz",
+    "status": "verified",
+    "size": 3583550,
+    "sha256": "97fc51ac2b085d4cde31ef4d2c3122c21abc217e9090a43a30fc5ec21684e059"
+  },
+  {
+    "component": "twolame",
+    "name": "twolame-0.4.0.tar.gz",
+    "sha512": "cc594bc8d2322922280f915a3c0aa52540cca0350d6498bc96f3f60fd6e53f951e775ea015a44bdb29ec883b46b31a0e5483f6a5c188b02e30008289273c7d03",
+    "url": "https://download.videolan.org/pub/contrib/twolame/twolame-0.4.0.tar.gz",
+    "status": "verified",
+    "size": 890908,
+    "sha256": "cc35424f6019a88c6f52570b63e1baf50f62963a3eac52a03a800bb070d7c87d"
+  },
+  {
+    "component": "gsm",
+    "name": "libgsm_1.0.13.tar.gz",
+    "sha512": "0d0cf9e1e81e64cd84f588c1e4f0cb74b849d45e41fdebf860f63588084c73c7c5198bfe73a6c976bda5735ee516661d3db00afbb5cc5886a7ee3a7b31d673aa",
+    "url": "https://download.videolan.org/pub/contrib/gsm/libgsm_1.0.13.tar.gz",
+    "status": "verified",
+    "size": 65318,
+    "sha256": "52c518244d428c2e56c543b98c9135f4a76ff780c32455580b793f60a0a092ad"
+  },
+  {
+    "component": "fontconfig",
+    "name": "fontconfig-2.12.3.tar.gz",
+    "sha512": "b17725c028be1c5e6f76c136b0ed7db1be7694cbbf217310083512708e05cdc1a824427f89082e6ef259c10297900f26cbe899f7c5762e7662855739f3eff5ea",
+    "url": "https://download.videolan.org/pub/contrib/fontconfig/fontconfig-2.12.3.tar.gz",
+    "status": "verified",
+    "size": 1903035,
+    "sha256": "ffc3cbf6dd9fcd516ee42f48306a715e66698b238933d6fa7cef02ea8b3b818e"
+  },
+  {
+    "component": "mpcdec",
+    "name": "musepack_src_r481.tar.gz",
+    "sha512": "89a8eab35e88d5ec1ef7c8fae897b23a5e31e1c99c8430f43a960c8543acd15cbb6b78e3d9da750a7d2649ebd86479c9136f9d370e0911675bfed8feff8de1d1",
+    "url": "https://download.videolan.org/pub/contrib/mpcdec/musepack_src_r481.tar.gz",
+    "status": "verified",
+    "size": 200318,
+    "sha256": "8988bc1f05ecdf6067ed06c576dc9ed03760361ae6190952ac29b5953c49dbc6"
+  },
+  {
+    "component": "zvbi",
+    "name": "zvbi-0.2.35.tar.bz2",
+    "sha512": "3d73eb0a7d05fdf1e3f8a74cc9d4fcb2a0287285904d59230c832f42b91afb072e96bda7e396ef07f268348061a51242925746db124bbb713cf56bdfabdada5d",
+    "url": "https://download.videolan.org/pub/contrib/zvbi/zvbi-0.2.35.tar.bz2",
+    "status": "verified",
+    "size": 1047761,
+    "sha256": "fc883c34111a487c4a783f91b1b2bb5610d8d8e58dcba80c7ab31e67e4765318"
+  },
+  {
+    "component": "mysofa",
+    "name": "libmysofa-0.5.tar.gz",
+    "sha512": "9ec0f24d9653674c59420c76f7244521d21099a48a2e09f974fd6a6ea2a2f2e5b312161da23eb6e275ff801af979eba8b0bafc4be75fb1c2cf5c302584ea2366",
+    "url": "https://download.videolan.org/pub/contrib/mysofa/libmysofa-0.5.tar.gz",
+    "status": "verified",
+    "size": 76799460,
+    "sha256": "c4ffef39c24b14ea91f5631058adfd192e491e2d5c48bf7f5678e6fb02daa814"
+  },
+  {
+    "component": "speex",
+    "name": "speex-1.2.1.tar.gz",
+    "sha512": "52e00300df82e1c7fb527b245af02b99a1f37faef74d004b7cd981052f1aa22a412cb18f5c7a5618df4c958f727c97eb7385beec99d68548d5b02e76192d4e0a",
+    "url": "https://download.videolan.org/pub/contrib/speex/speex-1.2.1.tar.gz",
+    "status": "verified",
+    "size": 1043278,
+    "sha256": "4b44d4f2b38a370a2d98a78329fefc56a0cf93d1c1be70029217baae6628feea"
+  },
+  {
+    "component": "upnp",
+    "name": "pupnp-release-1.14.13.tar.gz",
+    "sha512": "ae6ae72a5e784a0f9508af94c4070627e791660fa37966e9825643fd0f88b171826bda9a2ec872d4961bf3454e5a9cd716127f0bdf6e63c789c4e22aab0b7e71",
+    "url": "https://github.com/pupnp/pupnp/archive/refs/tags/release-1.14.13.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/pupnp/pupnp/archive/refs/tags/release-1.14.13.tar.gz"
+    ],
+    "size": 807484,
+    "sha256": "8c099da99b3506bef683d46415bc3158260ca5528b4cec211d880eb5dea61176"
+  },
+  {
+    "component": "xcb",
+    "name": "libxcb-1.12.tar.bz2",
+    "sha512": "4ce3e3f62b7e1c3a9e61c149c720ef2a4a760539ea615d7d52ae39e7f5a08456dc87d7a1ac5d85ca15dcc468a9a02d56fb8f8f6361c959af9b8780f011995896",
+    "url": "https://download.videolan.org/pub/contrib/xcb/libxcb-1.12.tar.bz2",
+    "status": "verified",
+    "size": 613822,
+    "sha256": "4adfb1b7c67e99bc9c2ccb110b2f175686576d2f792c8a71b9c8b19014057b5b"
+  },
+  {
+    "component": "sdl",
+    "name": "SDL-1.2.15.tar.gz",
+    "sha512": "ac392d916e6953b0925a7cbb0f232affea33339ef69b47a0a7898492afb9784b93138986df53d6da6d3e2ad79af1e9482df565ecca30f89428be0ae6851b1adc",
+    "url": "https://download.videolan.org/pub/contrib/sdl/SDL-1.2.15.tar.gz",
+    "status": "verified",
+    "size": 3920622,
+    "sha256": "d6d316a793e5e348155f0dd93b979798933fb98aa1edebcc108829d6474aad00"
+  },
+  {
+    "component": "vpx",
+    "name": "libvpx-1.15.2.tar.gz",
+    "sha512": "824fe8719e4115ec359ae0642f5e1cea051d458f09eb8c24d60858cf082f66e411215e23228173ab154044bafbdfbb2d93b589bb726f55b233939b91f928aae0",
+    "url": "https://download.videolan.org/pub/contrib/vpx/libvpx-1.15.2.tar.gz",
+    "status": "verified",
+    "size": 5630368,
+    "sha256": "26fcd3db88045dee380e581862a6ef106f49b74b6396ee95c2993a260b4636aa"
+  },
+  {
+    "component": "libarchive",
+    "name": "libarchive-3.8.0.tar.gz",
+    "sha512": "e563cd10cd447daf7c5d11c657cbc3d8971add4440264fb4754ea7670a249e8b7b1c31f62f78259867960392623dba73c2d20efc57dc02564c8f55841dc8f2cc",
+    "url": "https://github.com/libarchive/libarchive/releases/download/v3.8.0/libarchive-3.8.0.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/libarchive/libarchive/releases/download/v3.8.0/libarchive-3.8.0.tar.gz"
+    ],
+    "size": 8226029,
+    "sha256": "191b5b24811499d5c2e5efa3248975fa6daa5e6a227700cc7b8e54d6d7c06eef"
+  },
+  {
+    "component": "d3d9",
+    "name": "d3d9caps.h",
+    "sha512": "8acaaa8d62e5844e5fe42fc71a4337b6b8133ff13bfb2db0402474c9241cd70a50c942f0348d167ef6890fea593186f5505bd03ddc10a3fbbd8f34a8858d7a65",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/49e9a673b36a1241747bf3ea95d040f127753f81/mingw-w64-headers/direct-x/include/d3d9caps.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/49e9a673b36a1241747bf3ea95d040f127753f81/mingw-w64-headers/direct-x/include/d3d9caps.h"
+    ],
+    "size": 21050,
+    "sha256": "0c8dc96d539e575b4a28f2b8d20f4a89dc9e74536a7501bb0d48a367ba45676f"
+  },
+  {
+    "component": "d3d9",
+    "name": "d3d9.h",
+    "sha512": "8f13fea86872a8736e0802ac5900a39e2c93c2811de8dd6bcf26edac5daad2d8d137bd255f44c36ef11b0ea5bc241676aac8fda060b5f6fd737dd9697e4f7857",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/49e9a673b36a1241747bf3ea95d040f127753f81/mingw-w64-headers/direct-x/include/d3d9.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/49e9a673b36a1241747bf3ea95d040f127753f81/mingw-w64-headers/direct-x/include/d3d9.h"
+    ],
+    "size": 161598,
+    "sha256": "16c7ff6d9cbb6ffbf3529fbe9a7745d6995c6b77fbeb0278c229c594d8774502"
+  },
+  {
+    "component": "d3d9",
+    "name": "dxva2api.h",
+    "sha512": "fc601b4279fcc24ff1f0da8a0f451139b00b4c7945d5e7a83e896f6132380cea632a035c150525f36292e2cd7ae31aad56ecad8b1647e1576ae45103fc7cb598",
+    "url": "https://raw.githubusercontent.com/mingw-w64/mingw-w64/45def5d7a10885dfb87af3c7996f8de7197183b5/mingw-w64-headers/include/dxva2api.h",
+    "status": "verified",
+    "candidate_urls": [
+      "https://raw.githubusercontent.com/mingw-w64/mingw-w64/45def5d7a10885dfb87af3c7996f8de7197183b5/mingw-w64-headers/include/dxva2api.h"
+    ],
+    "size": 67503,
+    "sha256": "6052f217d9c48489cbb6e433096be8ae91dacc57f6f99c552d72dbf187164ec7"
+  },
+  {
+    "component": "aribb25",
+    "name": "aribb25-0.2.7.tar.gz",
+    "sha512": "24eda8c610bb8775847420023d2a35135fbcd03296cb69c80b1f8745bb6c1ee5f33199ed980d86e6c9f26a6ca3a2029b16ca2c6ab36fdbfd91a3f69cca5f3dad",
+    "url": "https://download.videolan.org/pub/contrib/aribb25/aribb25-0.2.7.tar.gz",
+    "status": "verified",
+    "size": 367883,
+    "sha256": "a437d3b7975db1732c18dcdc66f92bb11e21f0a0b33b95fab4e60f3a40508301"
+  },
+  {
+    "component": "aom",
+    "name": "libaom-3.5.0.tar.gz",
+    "sha512": "370c529a84d54c95f05c5a3b3edadd1cca95eeccd5a6b5454e574211c6dd9bf5bd33ab67b43587c6de37688fe546ea9e16de0ab2d721e965143b7e8c85db6fd4",
+    "url": "https://storage.googleapis.com/aom-releases/libaom-3.5.0.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://storage.googleapis.com/aom-releases/libaom-3.5.0.tar.gz"
+    ],
+    "size": 5206715,
+    "sha256": "d37dbee372e2430a7efde813984ae6d78bdf1fc4080ebe32457c9115408b0738"
+  },
+  {
+    "component": "sparkle",
+    "name": "Sparkle-1.16.0.zip",
+    "sha512": "5ed418c48878d4304f2d0bbdcf2e1bfafbe0cde57d4f4e294bd1e60a23dab76d86a0b5d393ed12d1d7c144e470d004a994ad76f46765bcc789d0e43035b9ab2a",
+    "url": "https://download.videolan.org/pub/contrib/sparkle/Sparkle-1.16.0.zip",
+    "status": "verified",
+    "size": 9001519,
+    "sha256": "ca389d8941601a0bef5b222ec93669a769047282e859d66e83c0ce09363b4244"
+  },
+  {
+    "component": "kate",
+    "name": "libkate-0.4.1.tar.gz",
+    "sha512": "2635237753abc0f6c43fc07bd0ecc57c2f3c893efa6c62ad08de9191045612477302ed45acd61cdfea7447efd654ebbe0ed2d6a2cbf867eb834581d7ee43377b",
+    "url": "https://download.videolan.org/pub/contrib/kate/libkate-0.4.1.tar.gz",
+    "status": "verified",
+    "size": 906896,
+    "sha256": "c40e81d5866c3d4bf744e76ce0068d8f388f0e25f7e258ce0c8e76d7adc87b68"
+  },
+  {
+    "component": "chromaprint",
+    "name": "chromaprint-1.4.2.tar.gz",
+    "sha512": "69449adf1c95c1395a5545d36877afe95b409d045357cc675e9ac58aee2955b3a9a245f37805192804a9b7fddc792b9e9289bf6448fa3393131048d28e06d7e2",
+    "url": "https://download.videolan.org/pub/contrib/chromaprint/chromaprint-1.4.2.tar.gz",
+    "status": "verified",
+    "size": 613367,
+    "sha256": "989609a7e841dd75b34ee793bd1d049ce99a8f0d444b3cea39d57c3e5d26b4d4"
+  },
+  {
+    "component": "smb2",
+    "name": "libsmb2-4.0.0.tar.gz",
+    "sha512": "d62d05f946d104995faefa8e4fdb3a9121f697a29aac031ddd6f2c3ec9ce97edbd18d84ace56103c19e0f56356b531f7d2db826428aff52abb4930603a5fb50f",
+    "url": "https://download.videolan.org/pub/contrib/smb2/libsmb2-4.0.0.tar.gz",
+    "status": "verified",
+    "size": 171678,
+    "sha256": "b4d1b13bc07adc68379a72f723b9032a950afd62fed7f2aa3e57f3421406da11"
+  },
+  {
+    "component": "freetype2",
+    "name": "freetype-2.13.1.tar.xz",
+    "sha512": "045c43f9a3ca33e7d6a98c286895b94ea6ccfbb83851270d1b1861b31ef3ee5a574d8e49c6414c4e14bdfb9276dc49a0677b3be3e4f40ef279dcda99b769b962",
+    "url": "https://download.videolan.org/pub/contrib/freetype2/freetype-2.13.1.tar.xz",
+    "status": "verified",
+    "size": 2508168,
+    "sha256": "ea67e3b019b1104d1667aa274f5dc307d8cbd606b399bc32df308a77f1a564bf"
+  },
+  {
+    "component": "lua",
+    "name": "lua-5.1.5.tar.gz",
+    "sha512": "0142fefcbd13afcd9b201403592aa60620011cc8e8559d4d2db2f92739d18186860989f48caa45830ff4f99bfc7483287fd3ff3a16d4dec928e2767ce4d542a9",
+    "url": "https://download.videolan.org/pub/contrib/lua/lua-5.1.5.tar.gz",
+    "status": "verified",
+    "size": 221213,
+    "sha256": "2640fc56a795f29d28ef15e13c34a47e223960b0240e8cb0a82d9b0738695333"
+  },
+  {
+    "component": "xorg-macros",
+    "name": "util-macros-1.19.0.tar.bz2",
+    "sha512": "6820fced14e28d505ed47c4e7e9fae17340e93caf94cc983683128b53833e257aed636bcac6204ed87ddc10132473ceb4bd2f6de53ea66ab8f71b8cd23fbfc15",
+    "url": "https://www.x.org/archive/individual/util/util-macros-1.19.0.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://www.x.org/archive/individual/util/util-macros-1.19.0.tar.bz2"
+    ],
+    "size": 80027,
+    "sha256": "2835b11829ee634e19fa56517b4cfc52ef39acea0cd82e15f68096e27cbed0ba"
+  },
+  {
+    "component": "tiger",
+    "name": "libtiger-0.3.4.tar.gz",
+    "sha512": "559e522b5127f32fdd08d62c40dfb493dc2db1efd1e21707d723ef27cbe03e7e38fb04d40856d824ed0c3c94a223ed1a0358fc11ecb30446b5ee5c7a3b802e6d",
+    "url": "https://download.videolan.org/pub/contrib/tiger/libtiger-0.3.4.tar.gz",
+    "status": "verified",
+    "size": 383685,
+    "sha256": "7342b255fb476d75b08dd4c56d5ce580f39b1c71c42e99fb7af9d999725d4166"
+  },
+  {
+    "component": "matroska",
+    "name": "libmatroska-1.7.0.tar.xz",
+    "sha512": "e635958113ab57fb6c7e808d4ad51f87c38ec6ff348b202df1789b34d25ca22bc00fbdf1ec4f386bc803ef3da9f57057bae78ecf22deabdf1399755b1c6fdd3e",
+    "url": "https://download.videolan.org/pub/contrib/matroska/libmatroska-1.7.0.tar.xz",
+    "status": "verified",
+    "size": 61296,
+    "sha256": "927239d8d49aed604877106aaf934f318b2c7e6b88451c9277476443308690c3"
+  },
+  {
+    "component": "dvdcss",
+    "name": "libdvdcss-1.4.3.tar.bz2",
+    "sha512": "0f9c0244feff5ca62459823810a39ede745b63fedb682707fcbaf0dff11fff42998cef31a281bb6380930123d079780d37a79871f6e628cdca9cfa06c64befb6",
+    "url": "https://download.videolan.org/pub/contrib/dvdcss/libdvdcss-1.4.3.tar.bz2",
+    "status": "verified",
+    "size": 388404,
+    "sha256": "233cc92f5dc01c5d3a96f5b3582be7d5cee5a35a52d3a08158745d3d86070079"
+  },
+  {
+    "component": "microdns",
+    "name": "microdns-0.1.2.tar.xz",
+    "sha512": "a6b15c65c74560fdba8973c63ffae9cdde4445f54196bb2d7d6348f6c15f8f162ef0a4e91b969ea3f2a60c701c3cc72799fcfba2fbf08c37f71ba8d5e3409702",
+    "url": "https://download.videolan.org/pub/contrib/microdns/microdns-0.1.2.tar.xz",
+    "status": "verified",
+    "size": 49420,
+    "sha256": "666c4b9d86b5b3c37357bb78453c7e8b72cd65ade22d0a7963bfbefe51509b5c"
+  },
+  {
+    "component": "regex",
+    "name": "regex-0.13.tar.gz",
+    "sha512": "8a6d873c115357126db2df47886550b77d2b0f56f56f4261140a1823ba492ef86b64880ccb317a2e2a9058b6c046a06c3c6e700f6da16fc0ba60b4f568379723",
+    "url": "https://download.videolan.org/pub/contrib/regex/regex-0.13.tar.gz",
+    "status": "verified",
+    "size": 327561,
+    "sha256": "dcdf884e4b04efae979fd847716771c69fff25e852eea35d00668ffd4bf78d79"
+  },
+  {
+    "component": "faad2",
+    "name": "faad2-2_10_0.tar.gz",
+    "sha512": "92c8b5e79f85b7a7caac9e7954959c26d74ef148a658dcb37e2c1b303fc2fcc5a0d12f21e7bd476870498109bdd03916a56c13f578186a69d6eceb103222e771",
+    "url": "https://download.videolan.org/pub/contrib/faad2/faad2-2_10_0.tar.gz",
+    "status": "verified",
+    "size": 803225,
+    "sha256": "0c6d9636c96f95c7d736f097d418829ced8ec6dbd899cc6cc82b728480a84bfb"
+  },
+  {
+    "component": "mpg123",
+    "name": "mpg123-1.30.1.tar.bz2",
+    "sha512": "098fcecc6a570e32ccd164b62428417186265905d148d009ea592c948a02027d67fc43e015ece21cf900008f31bbe35b3ec770faba5ae0b914db0022cb6b37fd",
+    "url": "https://download.videolan.org/pub/contrib/mpg123/mpg123-1.30.1.tar.bz2",
+    "status": "verified",
+    "size": 1092735,
+    "sha256": "1b20c9c751bea9be556749bd7f97cf580f52ed11f2540756e9af26ae036e4c59"
+  },
+  {
+    "component": "ssh2",
+    "name": "libssh2-1.10.0.tar.gz",
+    "sha512": "e064ee1089eb8e6cd5fa2617f4fd8ff56c2721c5476775a98bdb68c6c4ee4d05c706c3bb0eb479a27a8ec0b17a8a5ef43e1d028ad3f134519aa582d3981a3a30",
+    "url": "https://download.videolan.org/pub/contrib/ssh2/libssh2-1.10.0.tar.gz",
+    "status": "verified",
+    "size": 965044,
+    "sha256": "2d64e90f3ded394b91d3a2e774ca203a4179f69aebee03003e5a6fa621e41d51"
+  },
+  {
+    "component": "spatialaudio",
+    "name": "spatialaudio-0.3.0.tar.bz2",
+    "sha512": "ef1835a94cd87c55ac9327762ae8f1143272de2463ca850299be15d6cf7f5a554e536cc18f70475c25e2c78f434b9c51de158a7246956c8c1f9de3256a67b87a",
+    "url": "https://download.videolan.org/pub/contrib/spatialaudio/spatialaudio-0.3.0.tar.bz2",
+    "status": "verified",
+    "size": 934033,
+    "sha256": "284c1dbd8efd46c03be84ac7070bc87cae81b7125352b143a70be3e2b96988e3"
+  },
+  {
+    "component": "libtasn1",
+    "name": "libtasn1-4.8.tar.gz",
+    "sha512": "22a0d1b2fc57efd18aa23ea720f915ec0c31bd2f60653181b0537d3d7c3c3262cef3a76e3be03fdb7d7cd5a6b4156a1033b156e56717bfa37a32f176692319f3",
+    "url": "https://download.videolan.org/pub/contrib/libtasn1/libtasn1-4.8.tar.gz",
+    "status": "verified",
+    "size": 1859924,
+    "sha256": "fa802fc94d79baa00e7397cedf29eb6827d4bd8b4dd77b577373577c93a8c513"
+  },
+  {
+    "component": "vncclient",
+    "name": "LibVNCServer-0.9.10.tar.gz",
+    "sha512": "eb637dfb72dc50fb713a715c9d0cc8824a6871527c2edb497e70c92e2e708021fbd5d8134f2dee6a9e90d1c8fd3fee53c5f5ece790c2804e938011a980ffceae",
+    "url": "https://download.videolan.org/pub/contrib/vncclient/LibVNCServer-0.9.10.tar.gz",
+    "status": "verified",
+    "size": 1415191,
+    "sha256": "ed10819a5bfbf269969f97f075939cc38273cc1b6d28bccfb0999fba489411f7"
+  },
+  {
+    "component": "dvdnav",
+    "name": "libdvdnav-6.1.1.tar.bz2",
+    "sha512": "889bc987113189bfdfc1ebf603b256e5b228be37196455dcfdc7f66debe18e7298b82b807e86ff18a8925e491395ed4007c87cf18ba1ff1ccc213d86f5342a10",
+    "url": "https://download.videolan.org/pub/contrib/dvdnav/libdvdnav-6.1.1.tar.bz2",
+    "status": "verified",
+    "size": 367606,
+    "sha256": "c191a7475947d323ff7680cf92c0fb1be8237701885f37656c64d04e98d18d48"
+  },
+  {
+    "component": "modplug",
+    "name": "libmodplug-0.8.9.0.tar.gz",
+    "sha512": "880e10154fd367ee24ace53ca7e32a5c1fee7dfff1f934e6499944c12779427da63e2f55f8d6ce25db0a42a5b4424053bf64305b31dbfc4ef6a8909924d655fd",
+    "url": "https://download.videolan.org/pub/contrib/modplug/libmodplug-0.8.9.0.tar.gz",
+    "status": "verified",
+    "size": 576566,
+    "sha256": "457ca5a6c179656d66c01505c0d95fafaead4329b9dbaa0f997d00a3508ad9de"
+  },
+  {
+    "component": "SDL_image",
+    "name": "SDL_image-1.2.12.tar.gz",
+    "sha512": "0e71b280abc2a7f15755e4480a3c1b52d41f9f8b0c9216a6f5bd9fc0e939456fb5d6c10419e1d1904785783f9a1891ead278c03e88b0466fecc6871c3ca40136",
+    "url": "https://download.videolan.org/pub/contrib/SDL_image/SDL_image-1.2.12.tar.gz",
+    "status": "verified",
+    "size": 2231074,
+    "sha256": "0b90722984561004de84847744d566809dbb9daf732a9e503b91a1b5a84e5699"
+  },
+  {
+    "component": "orc",
+    "name": "orc-0.4.33.tar.bz2",
+    "sha512": "e8981908f37a77a2638c3461622a8e5ed8b583a3067c525de0737eb951a57d8a6f22f8930c31e0c16dae5bc94f98a79c1aba976b35e58f5d59b33d5a1d721e68",
+    "url": "https://gitlab.freedesktop.org/gstreamer/orc/-/archive/0.4.33/orc-0.4.33.tar.bz2",
+    "status": "verified",
+    "candidate_urls": [
+      "https://gitlab.freedesktop.org/gstreamer/orc/-/archive/0.4.33/orc-0.4.33.tar.bz2"
+    ],
+    "size": 228750,
+    "sha256": "0828e69313e224c34de5bd75b6317201a6547a695a006c47c1c46f8deb812f6d"
+  },
+  {
+    "component": "crystalhd",
+    "name": "crystalhd_lgpl_includes_v1.zip",
+    "sha512": "26a7443b8f3867742b519fac13552e0b4e7b8d5310223b5c73160a679ed777d7917b6d9ac0ed5629f23baa7d9db98425dd1d90c2893f9640c7890aebab4867db",
+    "url": "https://download.videolan.org/pub/contrib/crystalhd/crystalhd_lgpl_includes_v1.zip",
+    "status": "verified",
+    "size": 24169,
+    "sha256": "818d72fdbebcfc0a449d9e39153370c80325f2490798f82f1ed98c6bb60bc18c"
+  },
+  {
+    "component": "fluid",
+    "name": "fluidsynth-2.1.8.tar.gz",
+    "sha512": "34f87ea1577b1e89146a1589c67771262961bb18d0c8b21aaa9a1315e18dffc984f18f21cc8a96cc52dca9e94fcad1bdec2b62678c5f2f3434a4faba713854a6",
+    "url": "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.1.8.tar.gz",
+    "status": "verified",
+    "candidate_urls": [
+      "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.1.8.tar.gz"
+    ],
+    "size": 1369567,
+    "sha256": "a254efceff5d99f8d658d12d25318317f37307e6df852ec9baeb7da173496967"
+  },
+  {
+    "component": "wixlzx",
+    "name": "wix3.5.2519.0.zip",
+    "sha512": "26b1d2a5b582fcaa31ffaaf289711854897f91e8e5002bd8ddee2e69c95a60f53c6e3375d38fba4519ddd4a68bcf402c36eaef5a8faa6f3a4b8b2bc011e8f05a",
+    "url": "https://download.videolan.org/pub/contrib/wixlzx/wix3.5.2519.0.zip",
+    "status": "verified",
+    "size": 23128476,
+    "sha256": "c91c35606e49a05395fe42b8a0652ace36e072cc26cc4a6f09b8e6a3cc749a77"
+  },
+  {
+    "component": "taglib",
+    "name": "taglib-1.13.1.tar.gz",
+    "sha512": "986231ee62caa975afead7e94630d58acaac25a38bc33d4493d51bd635d79336e81bba60586d7355ebc0670e31f28d32da3ecceaf33292e4bc240c64bf00f35b",
+    "url": "https://download.videolan.org/pub/contrib/taglib/taglib-1.13.1.tar.gz",
+    "status": "verified",
+    "size": 1372618,
+    "sha256": "c8da2b10f1bfec2cd7dbfcd33f4a2338db0765d851a50583d410bacf055cfd0b"
+  },
+  {
+    "component": "ogg",
+    "name": "libogg-1.3.6.tar.xz",
+    "sha512": "2168548e57e23fadca4aa66351214b23d699bc3aa47f5d065f8b583a3fe85c99333014a6aa38e4021b0e3750115b88258a6c00cac1e1496cdee5f12cdc633814",
+    "url": "https://download.videolan.org/pub/contrib/ogg/libogg-1.3.6.tar.xz",
+    "status": "verified",
+    "size": 439952,
+    "sha256": "5c8253428e181840cd20d41f3ca16557a9cc04bad4a3d04cce84808677fa1061"
+  },
+  {
+    "component": "samplerate",
+    "name": "libsamplerate-0.1.9.tar.gz",
+    "sha512": "78596657963cbf06785e3e6e1190b093df71da52ca340e75bd8246a962cd79dd1c90fa5527c607cebcb296e2c1ee605015278b274e3b768f2f3fbeb0eadfb728",
+    "url": "https://download.videolan.org/pub/contrib/samplerate/libsamplerate-0.1.9.tar.gz",
+    "status": "verified",
+    "size": 4336641,
+    "sha256": "0a7eb168e2f21353fb6d84da152e4512126f7dc48ccb0be80578c565413444c1"
+  },
+  {
+    "component": "nettle",
+    "name": "nettle-3.7.3.tar.gz",
+    "sha512": "9901eba305421adff6d551ac7f478dff3f68a339d444c776724ab0b977fe6be792b1d2950c8705acbe76bd924fd6d898a65eded546777884be3b436d0e052437",
+    "url": "https://download.videolan.org/pub/contrib/nettle/nettle-3.7.3.tar.gz",
+    "status": "verified",
+    "size": 2383985,
+    "sha256": "661f5eb03f048a3b924c3a8ad2515d4068e40f67e774e8a26827658007e3bcf0"
+  },
+  {
+    "component": "protobuf",
+    "name": "protobuf-3.1.0-cpp.tar.gz",
+    "sha512": "9f85a98e55cbc9f245a3079d5a597f778454bc945f0942cb10fbdfbde5fe12b17d6dda93d6a8d5281459ad30a3840be7e0712feb33a824226884e7e4da54a061",
+    "url": "https://download.videolan.org/pub/contrib/protobuf/protobuf-3.1.0-cpp.tar.gz",
+    "status": "verified",
+    "size": 4109863,
+    "sha256": "51ceea9957c875bdedeb1f64396b5b0f3864fe830eed6a2d9c066448373ea2d6"
+  },
+  {
+    "component": "ebml",
+    "name": "libebml-1.4.3.tar.xz",
+    "sha512": "6a7a544f3f5a273eaab8c71aa692492cbfb671b3d73f03ab76438843a9a7a9379f9cffdae0e1452cf064e43c10ad82424645504a23d7f3336eabcd38f2621d0a",
+    "url": "https://download.videolan.org/pub/contrib/ebml/libebml-1.4.3.tar.xz",
+    "status": "verified",
+    "size": 63988,
+    "sha256": "746abbc216b634ec17e70213b9a2ae2aeef0ac1ffc393f2f96f7e4cd5435a921"
+  },
+  {
+    "component": "qt",
+    "name": "qt-5.6.3.tar.xz",
+    "sha512": "19b505b6afb394a85dd27decf892fb7dccef89d33a41df458a9905d32a6dde23e76c11db9214bfaa7d9bddf48959d1579fad217d96d85333fdac94608c46389c",
+    "url": "https://download.videolan.org/pub/contrib/qt/qt-5.6.3.tar.xz",
+    "status": "verified",
+    "size": 47840424,
+    "sha256": "fef48529a6fc2617a30d75d952cb327c6be341fd104154993922184b3b3b4da1"
+  },
+  {
+    "component": "goom",
+    "name": "goom-2k4-0-src.tar.gz",
+    "sha512": "790e3ab8dee122320ad8b3ae15f6a1cd2780222d5ae97979f614f16ba73b4b853960e7945ef9053ad9eddf9e29e69d0c52f0875d07c5c6c7cee41d764bf4ea5f",
+    "url": "https://download.videolan.org/pub/contrib/goom/goom-2k4-0-src.tar.gz",
+    "status": "verified",
+    "size": 757058,
+    "sha256": "d993c904c05faba87fd7f159291fa1cb7aadcff2edd28454d8e967880a8a0c85"
+  },
+  {
+    "component": "dvbpsi",
+    "name": "libdvbpsi-1.3.3.tar.bz2",
+    "sha512": "70f9e783a947e026ea50afe98ad2b3bfce075bd8d76932f73a6253b077a3a180aa632e9a1fff20308e2f0f3f881d727b4e4aad9b8da2b384edf9a3a0f9eacc69",
+    "url": "https://download.videolan.org/pub/contrib/dvbpsi/libdvbpsi-1.3.3.tar.bz2",
+    "status": "verified",
+    "size": 488020,
+    "sha256": "02b5998bcf289cdfbd8757bedd5987e681309b0a25b3ffe6cebae599f7a00112"
+  },
+  {
+    "component": "openjpeg",
+    "name": "openjpeg-2.5.0.tar.gz",
+    "sha512": "08975a2dd79f1e29fd1824249a5fbe66026640ed787b3a3aa8807c2c69f994240ff33e2132f8bf15bbc2202bef7001f98e42d487231d4eebc8e503538658049a",
+    "url": "https://download.videolan.org/pub/contrib/openjpeg/openjpeg-2.5.0.tar.gz",
+    "status": "verified",
+    "size": 1867111,
+    "sha256": "0333806d6adecc6f7a91243b2b839ff4d2053823634d4f6ed7a59bc87409122a"
+  },
+  {
+    "component": "png",
+    "name": "libpng-1.6.50.tar.xz",
+    "sha512": "05adc94ef532bbddaae46e087088a23236e6528fd3fc705c8edfb5ff293983b790d4361d6b20c20df73632a9fbe55d2f394296385cd8efd646f58393ff21257d",
+    "url": "https://download.videolan.org/pub/contrib/png/libpng-1.6.50.tar.xz",
+    "status": "verified",
+    "size": 1060992,
+    "sha256": "4df396518620a7aa3651443e87d1b2862e4e88cad135a8b93423e01706232307"
+  },
+  {
+    "component": "a52",
+    "name": "a52dec-0.7.4.tar.gz",
+    "sha512": "4b26fe9492f218b775fb190b76ecf06edaeb656adfe6dcbd24d0a0f86871c3ba917edb88a398eb12dccedaa1605b6f0a0be06b09f9fddd9a46e457b7dd244848",
+    "url": "https://download.videolan.org/pub/contrib/a52/a52dec-0.7.4.tar.gz",
+    "status": "verified",
+    "size": 241507,
+    "sha256": "a21d724ab3b3933330194353687df82c475b5dfb997513eef4c25de6c865ec33"
+  },
+  {
+    "component": "gpg-error",
+    "name": "libgpg-error-1.27.tar.bz2",
+    "sha512": "51b313c1159074fdbbce84f63bd8afd84b3b58cd608714865b25bed84c1862d050708aa06ac3dab92f1906593df5121161e594c2809653b0fb2c236cae5dcc2f",
+    "url": "https://download.videolan.org/pub/contrib/gpg-error/libgpg-error-1.27.tar.bz2",
+    "status": "verified",
+    "size": 813060,
+    "sha256": "4f93aac6fecb7da2b92871bb9ee33032be6a87b174f54abf8ddf0911a22d29d2"
+  },
+  {
+    "component": "caca",
+    "name": "libcaca-0.99.beta20.tar.gz",
+    "sha512": "ab03e6c7d17fd152b2d5e9161799531f5e87322e174cb9d25874700f5bc1acfaf8bc2736e733998dad906f793c5a0304740dd39eec04a5e4c3d181bb109b4f23",
+    "url": "https://download.videolan.org/pub/contrib/caca/libcaca-0.99.beta20.tar.gz",
+    "status": "verified",
+    "size": 1099916,
+    "sha256": "8ad74babc63bf665b0b2378d95b4da65b7493c11bd9f3ac600517085b0c4acf2"
+  },
+  {
+    "component": "x265",
+    "name": "x265_2.9.tar.gz",
+    "sha512": "270818c7fd84947fde371e32bef225c1880cfb0bcd95378d95b51f50577a134d7cd585fcdfa43b103a24d76c5ad826b09509a07eb9e208e8f2b56f2f77365cf3",
+    "url": "https://download.videolan.org/pub/contrib/x265/x265_2.9.tar.gz",
+    "status": "verified",
+    "size": 1385848,
+    "sha256": "ebae687c84a39f54b995417c52a2fdde65a4e2e7ebac5730d251471304b91024"
+  },
+  {
+    "component": "opus",
+    "name": "opus-1.3.tar.gz",
+    "sha512": "438635667e72c326d6d06a30e0b3a5564ba6cf5d484066456e1118e1c2fe3a61b959d0afa77a1084b177b72f9230618b6b55c78bc4e24e9127a09fd345b42518",
+    "url": "https://download.videolan.org/pub/contrib/opus/opus-1.3.tar.gz",
+    "status": "verified",
+    "size": 1032750,
+    "sha256": "4f3d69aefdf2dbaf9825408e452a8a414ffc60494c70633560700398820dc550"
+  },
+  {
+    "component": "fribidi",
+    "name": "fribidi-1.0.12.tar.xz",
+    "sha512": "cd624f519b270303e89139ced4020115abe3b6a0d774ba57f17fa69c6036edebd76c635a42c468786e76c6ffb0c7d63b435cd2663bc2fba08dec405840dd8e49",
+    "url": "https://download.videolan.org/pub/contrib/fribidi/fribidi-1.0.12.tar.xz",
+    "status": "verified",
+    "size": 1154912,
+    "sha256": "0cd233f97fc8c67bb3ac27ce8440def5d3ffacf516765b91c2cc654498293495"
+  }
+]

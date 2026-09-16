@@ -1,0 +1,8 @@
+{
+	"headers" : [
+		"PokerMessage",
+		"PokerMedal",
+		"PokerHelp",
+		"PokerTrickLevel"
+	]
+}

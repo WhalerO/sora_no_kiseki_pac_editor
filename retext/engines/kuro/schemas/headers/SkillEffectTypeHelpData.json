@@ -1,0 +1,10 @@
+{
+	"FALCOM_PS5": {
+		"game": "Kai",
+		"schema": {
+			"id": "long",
+			"skill_type_name": "toffset",
+			"text": "toffset"
+		}
+	}
+}

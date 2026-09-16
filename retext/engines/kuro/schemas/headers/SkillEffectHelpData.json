@@ -1,0 +1,19 @@
+{
+	"FALCOM_PS5": {
+		"game": "Kai",
+		"schema": {
+			"effect_id": "ulong",
+			"text1": "toffset",
+			"array": "u32array",
+			"int1": "int",
+			"text2": "toffset",
+			"text3": "toffset",
+			"text4": "toffset",
+			"text5": "toffset",
+			"int2": "int",
+			"int3": "int",
+			"text6": "toffset",
+			"text7": "toffset"
+		}
+	}
+}

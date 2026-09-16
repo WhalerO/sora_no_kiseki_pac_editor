@@ -1,0 +1,10 @@
+{
+	"headers": [
+		"CostumeParam",
+		"CostumeAttachOffset",
+		"CostumeTable",
+		"CostumeAttachTable",
+		"CostumeMaterialTable",
+		"CostumeUIFaceTable"
+	]
+}

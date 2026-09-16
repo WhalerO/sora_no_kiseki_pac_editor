@@ -1,0 +1,17 @@
+{
+	"headers": [
+		"QuestRank",
+		"QuestRankBefore",
+		"QuestChapterRank",
+		"QuestTitle",
+		"QuestText",
+		"QuestReportMessage",
+		"QuestCheckMessage",
+		"RecruitmentMember",
+		"QuestReportBackTexture",
+		"QuestSubText",
+		"StampCharaList",
+		"NaviText",
+		"QuestReportVoice"
+	]
+}

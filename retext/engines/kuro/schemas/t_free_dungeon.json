@@ -1,0 +1,26 @@
+{
+	"headers" : [
+		"FreeDungeonData",
+		"FreeDungeonSection",
+		"FreeDungeonReward",
+		"FreeDungeonClearBonus",
+		"FreeDungeonSupportPos",
+		"FreeDungeonCPSupplyList",
+		"FreeDungeonTBox",
+		"FreeDungeonBreakObj",
+		"FreeDungeonFloorCompositionData",
+		"FreeDungeonNullSquaresPattren",
+		"FreeDungeonSquaresPattrenData",
+		"FreeDungeonSwapMass",
+		"FreeDungeonAvatarChara",
+		"FreeDungeonMainMenuList",
+		"FreeDungeonShopListItemData",
+		"FreeDungeonShopTypeList",
+		"FreeDungeonRandomMass",
+		"FreeDungeonClearTargetText",
+		"FreeDungeonMassEffectText",
+		"FreeDungeonTBoxMassContents",
+		"FreeDungeonCraftBuildItemList",
+		"FreeDungeonFactoryExpansionList"
+	]
+}

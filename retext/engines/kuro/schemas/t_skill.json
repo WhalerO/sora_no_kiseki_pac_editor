@@ -1,0 +1,10 @@
+{
+	"headers" : [
+		"SkillParam",
+		"SkillGetParam",
+		"SkillChangeParam",
+		"SkillPowerIcon",
+		"SkillGrendelParam",
+		"SSkillTable"
+	]
+}

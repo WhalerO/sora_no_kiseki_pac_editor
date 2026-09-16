@@ -1,0 +1,16 @@
+{
+	"headers": [
+		"FishInfo",
+		"FishingConstant",
+		"FishingBaitInfo",
+		"FishingCastInfo",
+		"FishingSpot",
+		"FishingEventParam",
+		"FishingActionParam",
+		"FishParam",
+		"EtcItemParam",
+		"FishingChara",
+		"FishingGearInfo"
+	]
+}
+

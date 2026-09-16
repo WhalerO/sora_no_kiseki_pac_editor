@@ -1,0 +1,54 @@
+{
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"character_id": "ulong",
+			"name": "toffset",
+			"model": "toffset",
+			"face": "toffset",
+			"script": "toffset",
+			"flags": "ulong",
+			"gender": "toffset",
+			"portrait_id": "ulong",
+			"portrait": "toffset",
+			"unknown": "ulong",
+			"text3": "toffset",
+			"full_name": "toffset",
+			"full_name_en": "toffset"
+		}
+	},
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"character_id": "ulong",
+			"name": "toffset",
+			"model": "toffset",
+			"face": "toffset",
+			"script": "toffset",
+			"long1": "ulong",
+			"text1": "toffset",
+			"text2": "toffset",
+			"long2": "ulong",
+			"text3": "toffset",
+			"full_name": "toffset"
+		}
+	},
+	"CLE_PC" :{
+		"game": "Kuro2",
+		"schema": {
+			"character_id": "ulong",
+			"name": "toffset",
+			"model": "toffset",
+			"face": "toffset",
+			"script": "toffset",
+			"long1": "ulong",
+			"text1": "toffset",
+			"long2": "long",
+			"text2": "toffset",
+			"long3": "ulong",
+			"text3": "toffset",
+			"full_name": "toffset",
+			"full_name_en": "toffset"
+		}
+	}
+}

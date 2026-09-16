@@ -1,0 +1,45 @@
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local Python environments and package metadata
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+
+# Tool caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.log
+
+.runtime/
+scratch/
+TIS_Retext_Data/
+
+build/
+dist/
+*.spec
+package-probe*.json
+*.tmp
+*.bak
+
+# Real game corpora are local integration-test inputs, not repository data.
+test_raws/*
+!test_raws/README.md
+
+# Release archives and detached checksums are generated artifacts.
+*.zip
+*.7z
+*.sha256
+
+# LibVLC is supplied locally for reproducible Windows builds. Keep its
+# documentation in Git, but never commit the large native runtime itself.
+_vendor/libvlc/win-x64/*
+!_vendor/libvlc/win-x64/README.md

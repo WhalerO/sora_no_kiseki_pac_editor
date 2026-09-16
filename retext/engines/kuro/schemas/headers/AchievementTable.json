@@ -1,0 +1,13 @@
+{
+	"NISA_PC": {
+		"game": "Ys_X",
+		"schema": {
+			"id": "uint",
+			"unknown": "uint",
+			"hidden": "uint",
+			"rarity": "uint",
+			"text1": "toffset",
+			"text2": "toffset"
+		}
+	}
+}

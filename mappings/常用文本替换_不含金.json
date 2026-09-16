@@ -1,0 +1,186 @@
+{
+  "format": "tis-retext-mapping",
+  "version": 2,
+  "mappings": [
+    {
+      "enabled": true,
+      "old": "约书亚",
+      "new": "约修亚",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "克萝蒂雅",
+      "new": "科洛蒂娅",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "克萝赛",
+      "new": "科洛丝",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "吉克",
+      "new": "基库",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "蕾恩",
+      "new": "玲",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "小蕾",
+      "new": "小玲",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "露西奥拉",
+      "new": "露茜奥拉",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "露西欧拉",
+      "new": "露茜奥拉",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "坎、坎佩尼拉大人……",
+      "new": "肯、肯帕雷拉大人……",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "坎佩尼拉",
+      "new": "肯帕雷拉",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "奥利巴特",
+      "new": "奥利维特",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "圣颂耀星",
+      "new": "圣星光旋",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "潜龙俯冲",
+      "new": "炎龙倒海",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "方术·白波",
+      "new": "方术·稳泛沧海浪天阔",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "方术·风花",
+      "new": "方术·春风拂槛露华浓",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "方术·梦幻",
+      "new": "方术·罪魂幽恨如梦幻",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "方术·钢",
+      "new": "方术·满渍寒光生铁衣",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "雷光",
+      "new": "闪电光束",
+      "full_match": true
+    },
+    {
+      "enabled": true,
+      "old": "终末狂风",
+      "new": "审判雷光",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "致命嘶吼",
+      "new": "死亡咆哮",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "坠落深渊",
+      "new": "堕落深渊",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "失落环带",
+      "new": "破碎虚空",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "幻痛",
+      "new": "鬼魅之痛",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "银夜之棘",
+      "new": "银色荆棘",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "十二宫星环",
+      "new": "星之守护",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "风之跃行",
+      "new": "风之穿梭",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "导力封锁",
+      "new": "导力停止",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "剧烈狂风",
+      "new": "天龙卷",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "少女的决心",
+      "new": "少女的决意",
+      "full_match": false
+    },
+    {
+      "enabled": true,
+      "old": "暗影潜近",
+      "new": "潜行的白影",
+      "full_match": false
+    }
+  ]
+}

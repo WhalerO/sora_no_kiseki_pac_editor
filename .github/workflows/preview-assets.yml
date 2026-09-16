@@ -1,0 +1,76 @@
+name: Build preview release assets
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Existing preview release tag
+        required: true
+        default: v0.1.2.dev20260916
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONPATH: '.'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: release-tools
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag }}
+          path: source
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14.3'
+      - name: Prepare isolated build and pinned dependencies
+        shell: pwsh
+        working-directory: source
+        env:
+          RELEASE_TAG: ${{ inputs.tag }}
+        run: |
+          $version = python -c "import runpy; print(runpy.run_path('retext/version.py')['__version__'])"
+          if ($LASTEXITCODE -ne 0) { throw 'Unable to read source version' }
+          if ($env:RELEASE_TAG -ne "v$version") { throw 'Tag and source version do not match' }
+          $tempDir = Join-Path $PWD '.runtime/ci-temp'
+          New-Item -ItemType Directory -Path $tempDir -Force | Out-Null
+          "TEMP=$tempDir" >> $env:GITHUB_ENV
+          "TMP=$tempDir" >> $env:GITHUB_ENV
+          python -m venv .venv
+          ./.venv/Scripts/python.exe -m pip install -r requirements-release.txt
+          if ($LASTEXITCODE -ne 0) { throw 'Dependency install failed' }
+          $archive = Join-Path $tempDir 'vlc-3.0.23-win64.zip'
+          Invoke-WebRequest 'https://download.videolan.org/pub/videolan/vlc/3.0.23/win64/vlc-3.0.23-win64.zip' -OutFile $archive
+          ./scripts/prepare_vlc_runtime.ps1 -ArchivePath $archive
+      - name: Check source and build packaged probe
+        shell: pwsh
+        working-directory: source
+        run: |
+          ./.venv/Scripts/python.exe scripts/release_check.py
+          if ($LASTEXITCODE -ne 0) { throw 'Source checks failed' }
+          ./scripts/build_exe.ps1 -PythonExecutable ./.venv/Scripts/python.exe
+      - name: Assemble verified release assets
+        shell: pwsh
+        run: |
+          source/.venv/Scripts/python.exe release-tools/scripts/assemble_preview_release.py --source source --contrib-manifest release-tools/licenses/vlc/contrib-source-inputs.json --output release-assets
+          if ($LASTEXITCODE -ne 0) { throw 'Release assembly failed' }
+      - name: Upload to the existing draft release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ inputs.tag }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          $draft = gh release view $env:RELEASE_TAG --json isDraft --jq .isDraft
+          if ($draft -ne 'true') { throw 'Only a draft release may be updated by this workflow' }
+          Get-ChildItem release-assets -File | ForEach-Object {
+            gh release upload $env:RELEASE_TAG $_.FullName --clobber
+            if ($LASTEXITCODE -ne 0) { throw "Failed to upload $($_.Name)" }
+          }

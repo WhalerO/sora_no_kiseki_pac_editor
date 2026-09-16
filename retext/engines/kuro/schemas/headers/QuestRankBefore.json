@@ -1,0 +1,10 @@
+{
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"id": "uint",
+			"required_points": "uint",
+			"rank_name": "toffset"
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"headers": [
+		"SkillLevelCostData",
+		"SkillLevelParam",
+		"SkillLevelSkillSetting",
+		"SkillLevelAbilityDefine",
+		"SkillLevelAbilityParam",
+		"SkillLevelFactorDefine",
+		"SkillLevelConstant",
+		"SkillLevelExpData",
+		"SkillLevelExpCorrectData"
+	]
+}

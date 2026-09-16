@@ -1,0 +1,11 @@
+# Versions validated by the Windows release checks.  Build in a clean CPython
+# 3.11 environment; update this file deliberately after native smoke tests.
+zstandard==0.25.0
+lz4==4.4.5
+Pillow==12.2.0
+moderngl[headless]==5.12.0
+glcontext==3.0.0
+numpy==2.4.6
+python-vlc==3.0.21203
+pycryptodome==3.23.0
+PyInstaller==6.19.0

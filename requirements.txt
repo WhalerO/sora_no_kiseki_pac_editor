@@ -1,0 +1,7 @@
+zstandard>=0.23.0,<1
+lz4>=4.4,<5
+Pillow>=12.0.0,<13
+moderngl[headless]>=5.12.0,<6
+numpy>=2.0,<3
+python-vlc==3.0.21203
+pycryptodome>=3.23.0,<4

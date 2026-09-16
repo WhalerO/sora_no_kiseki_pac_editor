@@ -1,0 +1,19 @@
+{
+	"CLE_PC": {
+		"game": "Kuro2",
+		"schema": {
+			"long": "long",
+			"arr": "u16array",
+			"int": "int"
+		}
+	},
+	"CLE_PC": {
+		"game": "Kai",
+		"schema": {
+			"long1": "long",
+			"arr": "u16array",
+			"int": "int",
+			"long2": "long"
+		}
+	}
+}

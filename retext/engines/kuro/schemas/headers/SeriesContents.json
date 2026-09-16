@@ -1,0 +1,11 @@
+{
+  "FALCOM_PS5": {
+    "game": "Kai",
+    "schema": {
+      "id": "ulong",
+      "toffset": "toffset",
+      "text1": "toffset",
+      "text2": "toffset"
+    }
+  }
+}

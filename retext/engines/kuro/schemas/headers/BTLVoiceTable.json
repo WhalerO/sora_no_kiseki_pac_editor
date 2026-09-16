@@ -1,0 +1,38 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kai",
+		"schema": {	
+			"int1": "int",	
+			"long1": "long",
+			"long2": "long",
+			"empty1": "int",
+			"arr1": "u16array",
+			"empty2": "int",
+			"arr2": "u32array",
+			"empty3": "int",
+			"text1": "toffset",
+			"arr3": "u8array",
+			"empty4": "int"
+		}
+	},
+	"FALCOM_PC": {
+		"game": "Sora1",
+		"schema": {
+			"int1": "int",	
+			"short1": "ushort",
+			"short2": "ushort",
+			"short3": "ushort",
+			"short4": "ushort",
+			"int2": "int",
+			"array1": "u16array",
+			"empty1": "int",
+			"array2": "u16array",
+			"empty2": "int",
+			"array3": "u32array",
+			"empty3": "int",
+			"text": "toffset",
+			"array4": "u8array",
+			"empty4": "int"
+		}
+	}
+}

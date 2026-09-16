@@ -1,0 +1,12 @@
+{
+	"headers": [
+		"HelpTableData",
+		"RealTimeHelpTableData",
+		"HelpTitle",
+		"HelpPage",
+		"HelpIconList",
+		"HelpController",
+		"HelpOverlayIcon",
+		"HelpImageList"
+	]
+}

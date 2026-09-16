@@ -1,0 +1,38 @@
+# Keep source and metadata deterministic across Windows and CI checkouts.
+* text=auto
+
+*.py text eol=lf
+*.pyi text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.ini text eol=lf
+*.ps1 text eol=lf
+
+# Game resources, native runtimes and media must never be newline-normalized.
+*.pac binary
+*.tbl binary
+*.dat binary
+*.mdl binary
+*.dds binary
+*.fnt binary
+*.mi binary
+*.bin binary
+*.fxo binary
+*.wav binary
+*.webm binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.pyd binary
+*.pyc binary
+*.zip binary
+*.7z binary

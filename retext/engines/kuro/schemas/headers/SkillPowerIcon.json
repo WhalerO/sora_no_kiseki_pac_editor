@@ -1,0 +1,17 @@
+{
+	"CLE_PC": {
+		"game": "Kuro2",
+		"schema": {
+			"skill_power": "int",
+			"icon_id": "int"
+		}
+	},
+	"FALCOM_PS4": {
+		"game": "Kai",
+		"schema": {
+			"skill_power": "int",
+			"icon_id": "int",
+			"power_text":  "toffset"
+		}
+	}
+}

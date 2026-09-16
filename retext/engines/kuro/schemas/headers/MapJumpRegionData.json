@@ -1,0 +1,20 @@
+{
+	"FALCOM_PS4": {
+		"game": "Kuro1",
+		"schema": {
+			"id": "ulong",
+			"name": "toffset",
+			"flag": "toffset"
+		}
+	},
+	"CLE_PC": {
+		"game": "Kuro2",
+		"schema": {
+			"id": "ulong",
+			"name": "toffset",
+			"flag": "toffset",
+			"float1": "float",
+			"float2": "float"
+		}
+	}
+}
