@@ -10,9 +10,11 @@ the 1st / the 2nd 的 TBL/DAT 文本服务、FPAC v1 容器工作区、媒体预
 
 ## 下载与开始使用
 
-在 [Releases](https://github.com/WhalerO/sora_no_kiseki_pac_editor/releases)
-下载 Windows x64 的 `win-x64-onedir.zip`，完整解压后运行 `TIS_Retext.exe`，
+在 [0.1.3 下载页面](https://github.com/WhalerO/sora_no_kiseki_pac_editor/releases/tag/v0.1.3.dev20260917)
+的 **Assets** 中下载 Windows x64 的 `win-x64-onedir.zip`，完整解压后运行 `TIS_Retext.exe`，
 无需安装 Python。请保留同目录的 `_internal` 文件夹，并解压到可写的非系统盘目录。
+`Source code` 是源码，`third-party-sources.zip` 是第三方对应源码，均不是工具安装包。
+其他版本见 [全部 Releases](https://github.com/WhalerO/sora_no_kiseki_pac_editor/releases)。
 
 使用步骤见 [编辑器使用指南](docs/EDITOR_GUIDE.md)。先备份原始资源；修改后使用
 “导出 PAC”另存为新文件，检查结果后再替换游戏资源。
