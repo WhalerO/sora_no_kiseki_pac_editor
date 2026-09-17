@@ -5,6 +5,7 @@ import hashlib
 import os
 import re
 import shutil
+import tempfile
 import zlib
 from datetime import datetime, timezone
 from pathlib import Path
@@ -21,6 +22,7 @@ from ..paths import (
 )
 from .domain import PacArchive, PacBuildReport, PacEntry, PacWorkspaceSummary
 from .fpac import FpacArchiveService, _validate_entry_name
+from .lock_guard import workspace_lock_guard
 
 
 MANIFEST_VERSION = 1
@@ -1195,6 +1197,25 @@ def _acquire_workspace_lock(
     *,
     create_root: bool = True,
 ) -> Path:
+    try:
+        # Serialize stale-lock reclamation as well as publication. Comparing
+        # bytes then unlinking without a guard can delete another contender's
+        # newly published lock between those two operations.
+        with workspace_lock_guard(root):
+            return _acquire_workspace_lock_guarded(root, token, create_root=create_root)
+    except OSError as exc:
+        raise PacWorkspaceError(
+            f"无法建立 PAC 缓存工作区：{root}\n"
+            "缓存目录的创建、写入或锁定失败，并非 PAC 内容解析错误。"
+            "请将完整工具目录移到本地可写的较短路径，或通过 "
+            "TIS_RETEXT_DATA_DIR 指定其他数据目录后重新启动。\n"
+            f"系统信息：{exc}"
+        ) from exc
+
+
+def _acquire_workspace_lock_guarded(
+    root: Path, token: str, *, create_root: bool,
+) -> Path:
     if create_root:
         root.mkdir(parents=True, exist_ok=True)
     elif not root.is_dir():
@@ -1206,21 +1227,34 @@ def _acquire_workspace_lock(
         "created": _utc_now(),
     }
     encoded = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
-    prepared = root / f".lock-{token}.tmp"
+    # Exclusive creation supplies a short collision-safe name. The ownership
+    # token remains full length inside the JSON, not duplicated in the path.
+    fd, prepared_name = tempfile.mkstemp(prefix=".l-", suffix=".tmp", dir=root)
+    prepared = Path(prepared_name)
     try:
-        with prepared.open("xb") as stream:
+        with os.fdopen(fd, "wb") as stream:
             stream.write(encoded)
             stream.flush()
             os.fsync(stream.fileno())
         for _attempt in range(3):
             try:
-                # Publishing a hard link is exclusive like O_EXCL, while the
-                # visible file is already complete when it appears.
-                os.link(prepared, lock_path)
+                if os.name == "nt":
+                    # Windows rename never overwrites an existing destination.
+                    # Publish complete JSON without requiring NTFS hard links.
+                    # Do NOT use os.replace or shutil.move here.
+                    os.rename(prepared, lock_path)
+                else:
+                    # POSIX rename would overwrite the current owner's lock.
+                    os.link(prepared, lock_path)
                 return lock_path
             except FileExistsError:
                 current, raw = _read_lock(lock_path)
                 pid = _lock_pid(current)
+                if pid <= 0:
+                    raise PacWorkspaceError(
+                        f"无法确认工作区锁的归属，已保留缓存：{lock_path}。"
+                        "请关闭其他工具实例，或选择其他数据目录后重试。"
+                    )
                 if _pid_is_alive(pid):
                     raise PacWorkspaceError(
                         f"PAC 工作区正被另一个程序实例使用（PID {pid}）。"
@@ -1240,9 +1274,10 @@ def _acquire_workspace_lock(
 
 
 def _release_workspace_lock(path: Path, token: str) -> None:
-    current, _raw = _read_lock(path)
-    if current.get("token") == token:
-        path.unlink(missing_ok=True)
+    with workspace_lock_guard(path.parent):
+        current, _raw = _read_lock(path)
+        if current.get("token") == token:
+            path.unlink(missing_ok=True)
 
 
 def _directory_size(root: Path) -> int:

@@ -3,8 +3,8 @@ from __future__ import annotations
 import os
 import shutil
 import sys
+import tempfile
 from pathlib import Path
-from uuid import uuid4
 
 
 PACKAGE_ROOT = Path(__file__).resolve().parent
@@ -78,9 +78,9 @@ def ensure_trash_root() -> Path:
 
 
 def create_runtime_dir(prefix: str) -> Path:
-    runtime_dir = ensure_runtime_root() / f"{prefix}_{uuid4().hex}"
-    runtime_dir.mkdir(parents=True, exist_ok=True)
-    return runtime_dir
+    # mkdtemp reserves the name exclusively; a 32-character UUID needlessly
+    # consumed Windows' path budget before a PAC entry was even materialized.
+    return Path(tempfile.mkdtemp(prefix=f"{prefix}_", dir=ensure_runtime_root()))
 
 
 def prepare_runtime_dir(name: str) -> Path:
