@@ -53,6 +53,7 @@ jobs:
         run: |
           $parseErrors = @()
           foreach ($path in @(
+            'build.ps1',
             'scripts/build_exe.ps1',
             'scripts/prepare_vlc_runtime.ps1'
           )) {

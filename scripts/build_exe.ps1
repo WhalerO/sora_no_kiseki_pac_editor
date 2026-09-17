@@ -6,6 +6,10 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
+$OutputEncoding = [System.Text.UTF8Encoding]::new($false)
+[Console]::OutputEncoding = $OutputEncoding
+$env:PYTHONIOENCODING = "utf-8"
+$env:PYTHONUTF8 = "1"
 
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $PackageRoot = Split-Path -Parent $ScriptDir
@@ -269,7 +273,7 @@ $vendoredVlcRoot = [System.IO.Path]::GetFullPath(
 $runtimeManifestPath = Join-Path $vendoredVlcRoot ".tis-retext-runtime.json"
 $runtimeManifest = $null
 if (Test-Path -LiteralPath $runtimeManifestPath -PathType Leaf) {
-    $runtimeManifest = Get-Content -Raw -LiteralPath $runtimeManifestPath |
+    $runtimeManifest = Get-Content -Raw -Encoding UTF8 -LiteralPath $runtimeManifestPath |
         ConvertFrom-Json
 }
 if ($Release) {
@@ -434,6 +438,13 @@ if (Test-Path $PacToolsDir) {
 
 $pyInstallerArgs += $LaunchScript
 
+# This file marks a completed, probed build. Never leave an older success
+# manifest beside a new executable if a later build/probe step fails.
+$manifestPath = Join-Path $PackageRoot "dist\TIS_Retext-build.json"
+if (Test-Path -LiteralPath $manifestPath -PathType Leaf) {
+    Remove-Item -LiteralPath $manifestPath -Force
+}
+
 foreach ($pyInstallerOutputRoot in @(
     (Join-Path $PackageRoot "build\TIS_Retext"),
     (Join-Path $PackageRoot "dist\TIS_Retext")
@@ -524,6 +535,9 @@ if (-not $OneFile) {
 }
 
 $probeOutput = Join-Path $PackageRoot "build\package-probe.json"
+if (Test-Path -LiteralPath $probeOutput -PathType Leaf) {
+    Remove-Item -LiteralPath $probeOutput -Force
+}
 $probeData = Join-Path $PackageRoot "build\package-probe-data"
 $previousDataRoot = $env:TIS_RETEXT_DATA_DIR
 try {
@@ -587,6 +601,9 @@ if ($null -ne ($forbiddenStandaloneFfmpeg | Select-Object -First 1)) {
 }
 
 $appVersion = (& $PythonExecutable -c "from retext.version import __version__; print(__version__)").Trim()
+if (($LASTEXITCODE -ne 0) -or [string]::IsNullOrWhiteSpace($appVersion)) {
+    throw "Unable to read the application version for the build manifest."
+}
 $gitCommit = (git -C $PackageRoot rev-parse HEAD 2>$null)
 $gitCommitExitCode = $LASTEXITCODE
 $gitDirty = $true
@@ -594,7 +611,10 @@ if ($gitCommitExitCode -eq 0) {
     $gitStatus = @(git -C $PackageRoot status --porcelain 2>$null)
     $gitDirty = ($LASTEXITCODE -ne 0) -or ($gitStatus.Count -gt 0)
 }
-$probeResult = Get-Content -LiteralPath $probeOutput -Raw | ConvertFrom-Json
+$probeResult = Get-Content -LiteralPath $probeOutput -Raw -Encoding UTF8 | ConvertFrom-Json
+if ($probeResult.ok -ne $true) {
+    throw "Packaged native dependency probe did not report success."
+}
 if ($probeResult.dpi_awareness -ne 2) {
     throw "Packaged application did not start with per-monitor DPI awareness."
 }
@@ -639,7 +659,6 @@ $buildManifest = [PSCustomObject]@{
         openssl = $probeResult.openssl
     }
 }
-$manifestPath = Join-Path $PackageRoot "dist\TIS_Retext-build.json"
 $buildManifest | ConvertTo-Json | Set-Content -LiteralPath $manifestPath -Encoding UTF8
 Write-Host "[build] Complete: $releaseExecutable"
 Write-Host "[build] Probe:    $probeOutput"

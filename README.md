@@ -159,7 +159,26 @@ $env:PYTHONPATH='.'
 
 ## 构建
 
-日常开发验证可以使用普通构建：
+日常开发可在 PowerShell 中一键构建：
+
+```powershell
+.\build.ps1
+```
+
+默认使用项目的 `.venv`；不存在时用 `py -3.14` 创建，再安装固定版本依赖。
+首次构建前需准备 LibVLC 运行时，见 `scripts/prepare_vlc_runtime.ps1`。
+入口会保持当前 PowerShell 版本，不会从 PowerShell 7 切换到 5.1；中文路径可以使用。
+从其他目录调用脚本时也会定位到项目根目录。任一步失败立即停止，只有完整构建和包内自检
+成功后才显示 `Build finished`，不再等待按键。
+
+依赖已经安装时可以跳过联网安装；也可以指定现有 Python：
+
+```powershell
+.\build.ps1 -SkipDependencyInstall
+.\build.ps1 -PythonExecutable 'D:\PythonEnv\Scripts\python.exe' -SkipDependencyInstall
+```
+
+也可直接调用底层普通构建脚本：
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-release.txt
@@ -169,6 +188,7 @@ powershell -ExecutionPolicy Bypass -File scripts\build_exe.ps1 `
 
 默认输出为 `dist\TIS_Retext\TIS_Retext.exe`。这是 onedir 应用，运行时必须
 保留整个 `dist\TIS_Retext\`，不能只复制 exe。
+`dist\TIS_Retext-build.json` 仅在自检成功后生成；失败时不会保留上一次的完成标记。
 
 构建脚本把 `TEMP`、`TMP` 和 PyInstaller 配置缓存放在项目目录的 `.runtime/`
 下；默认包排除独立 FFmpeg、VLC GUI 插件及重复的 `libvlccore.dll`。正式体积
